@@ -1,5 +1,5 @@
 {
-  "name": "Project-Template",
+  "name": "Minecraft-Version-Tracker",
   "module": "index.ts",
   "type": "module",
   "engines": {

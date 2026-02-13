@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "Project-Template",
+      "name": "Minecraft-Version-Tracker",
       "dependencies": {
         "chalk": "^5.6.2",
         "discord.js": "^14.25.1",

@@ -1,4 +1,4 @@
-import TemplateError from '../../Private/Error.js';
+import MinecraftVersionTrackerError from '../../Private/Error.js';
 import {
   type AutocompleteInteraction,
   type ChatInputCommandInteraction,
@@ -33,14 +33,16 @@ class CommandHandler {
 
       const owners = await this.discord.utils.getOwners();
       if (command.type === CommandType.Guild && interaction.guild === null) {
-        throw new TemplateError('Please run this command in a server');
+        throw new MinecraftVersionTrackerError('Please run this command in a server');
       } else if (command.type === CommandType.Admin && !owners.includes(interaction.user.id)) {
-        throw new TemplateError('This is an admin command. Please either own the bot or be apart of the team');
+        throw new MinecraftVersionTrackerError(
+          'This is an admin command. Please either own the bot or be apart of the team'
+        );
       }
 
       await command.execute(interaction);
     } catch (error) {
-      if (error instanceof Error || error instanceof TemplateError) {
+      if (error instanceof Error || error instanceof MinecraftVersionTrackerError) {
         this.discord.utils.handleError(error, interaction);
       }
     }
@@ -52,7 +54,7 @@ class CommandHandler {
     try {
       await command.autocomplete(interaction);
     } catch (error) {
-      if (error instanceof Error || error instanceof TemplateError) {
+      if (error instanceof Error || error instanceof MinecraftVersionTrackerError) {
         this.discord.utils.handleError(error, interaction);
       }
     }

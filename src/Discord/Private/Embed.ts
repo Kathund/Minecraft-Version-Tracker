@@ -5,7 +5,7 @@ class Embed extends EmbedBuilder {
     super();
     this.setColor('#ff538e');
     this.setTimestamp();
-    this.setFooter({ text: 'Template by @.kathund', iconURL: 'https://i.imgur.com/uUuZx2E.png' });
+    this.setFooter({ text: 'Minecraft Version Tracker by @.kathund', iconURL: 'https://i.imgur.com/uUuZx2E.png' });
   }
 }
 

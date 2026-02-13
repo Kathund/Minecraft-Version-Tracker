@@ -1,4 +1,4 @@
-import TemplateError from '../../Private/Error.js';
+import MinecraftVersionTrackerError from '../../Private/Error.js';
 import {
   AutocompleteInteraction,
   ButtonInteraction,
@@ -33,13 +33,13 @@ class DiscordUtils {
     }
   }
 
-  private getErrorEmbed(error: Error | TemplateError): ErrorEmbed {
+  private getErrorEmbed(error: Error | MinecraftVersionTrackerError): ErrorEmbed {
     const errorStack = error instanceof Error ? (error.stack ?? error.message) : String(error ?? 'Unknown');
     return new ErrorEmbed().setDescription(`\`\`\`${errorStack}\`\`\``);
   }
 
-  private async logError(error: Error | TemplateError): Promise<void> {
-    if (error instanceof TemplateError) return;
+  private async logError(error: Error | MinecraftVersionTrackerError): Promise<void> {
+    if (error instanceof MinecraftVersionTrackerError) return;
     if (!this.discord.client?.application) return;
 
     try {
@@ -57,7 +57,7 @@ class DiscordUtils {
   }
 
   async handleError(
-    error: Error | TemplateError,
+    error: Error | MinecraftVersionTrackerError,
     interaction: ChatInputCommandInteraction | ButtonInteraction | AutocompleteInteraction | null = null
   ): Promise<void> {
     console.error(error);
@@ -66,7 +66,7 @@ class DiscordUtils {
     if (!interaction || interaction.isAutocomplete()) return;
 
     const embed = new ErrorEmbed();
-    if (error instanceof TemplateError) {
+    if (error instanceof MinecraftVersionTrackerError) {
       embed.setDescription(`\`\`\`${error.message}\`\`\``);
     } else {
       embed.setDescription('This error has been reported to the owner. Please try again later.');
@@ -79,7 +79,7 @@ class DiscordUtils {
         await interaction.reply({ embeds: [embed], flags: MessageFlags.Ephemeral });
       }
 
-      if (!(error instanceof TemplateError)) {
+      if (!(error instanceof MinecraftVersionTrackerError)) {
         await interaction.followUp({ embeds: [this.getErrorEmbed(error)], flags: MessageFlags.Ephemeral });
       }
     } catch (e) {

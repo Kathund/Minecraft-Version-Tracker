@@ -1,4 +1,4 @@
-import TemplateError from '../../Private/Error.js';
+import MinecraftVersionTrackerError from '../../Private/Error.js';
 import { type ButtonInteraction, Collection, MessageFlags } from 'discord.js';
 import { ButtonResponse, CommandType } from '../../Types/Discord.js';
 import { readdirSync } from 'node:fs';
@@ -29,14 +29,16 @@ class ButtonHandler {
 
       const owners = await this.discord.utils.getOwners();
       if (button.type === CommandType.Guild && interaction.guild === null) {
-        throw new TemplateError('Please run this button in a server');
+        throw new MinecraftVersionTrackerError('Please run this button in a server');
       } else if (button.type === CommandType.Admin && !owners.includes(interaction.user.id)) {
-        throw new TemplateError('This is an admin command. Please either own the bot or be apart of the team');
+        throw new MinecraftVersionTrackerError(
+          'This is an admin command. Please either own the bot or be apart of the team'
+        );
       }
 
       await button.execute(interaction);
     } catch (error) {
-      if (error instanceof Error || error instanceof TemplateError) {
+      if (error instanceof Error || error instanceof MinecraftVersionTrackerError) {
         this.discord.utils.handleError(error, interaction);
       }
     }

@@ -28,7 +28,9 @@ function getCurrentTime() {
 }
 
 function getErrorString(error: Error): string {
-  return `${error.toString()}${error.stack?.replaceAll(error.toString(), '').replaceAll('Template:', '\nTemplate:')}`;
+  return `${error.toString()}${error.stack
+    ?.replaceAll(error.toString(), '')
+    .replaceAll('Minecraft Version Tracker:', '\nMinecraft Version Tracker:')}`;
 }
 
 function logSomething(message: string, log: LogData): void {

@@ -1,11 +1,12 @@
-class TemplateError extends Error {
+class MinecraftVersionTrackerError extends Error {
   constructor(message: string) {
     super(message);
-    this.name = 'Template';
+    this.name = 'Minecraft Version Tracker';
   }
 
   override toString(): string {
     return this.message;
   }
 }
-export default TemplateError;
+
+export default MinecraftVersionTrackerError;
