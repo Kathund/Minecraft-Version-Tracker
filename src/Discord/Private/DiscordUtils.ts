@@ -1,5 +1,6 @@
 import MinecraftVersionTrackerError from '../../Private/Error.js';
 import {
+  type ApplicationCommandOptionChoiceData,
   AutocompleteInteraction,
   ButtonInteraction,
   ChatInputCommandInteraction,
@@ -7,13 +8,25 @@ import {
   type SendableChannels,
   Team
 } from 'discord.js';
-import { ErrorEmbed } from './Embed.js';
+import { ErrorEmbed } from './Templates/Embed.js';
 import type DiscordManager from '../DiscordManager.js';
+import type { AutoComplateOption } from '../../Types/Discord.js';
 
 class DiscordUtils {
   private discord: DiscordManager;
   constructor(discord: DiscordManager) {
     this.discord = discord;
+  }
+
+  parseAutoComplete(
+    interaction: AutocompleteInteraction,
+    options: AutoComplateOption[]
+  ): ApplicationCommandOptionChoiceData[] {
+    const focusedOption = interaction.options.getFocused(true);
+    return options
+      .filter((choice) => choice.name.toLowerCase().startsWith(focusedOption.value.toLowerCase()))
+      .slice(0, 25)
+      .map((choice) => ({ name: choice.name, value: choice.value ?? choice.name }));
   }
 
   async getOwners(): Promise<string[]> {

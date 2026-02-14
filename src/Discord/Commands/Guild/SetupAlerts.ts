@@ -1,6 +1,6 @@
 import Command from '../../Private/Commands/Command.js';
 import CommandData from '../../Private/Commands/CommandData.js';
-import Embed from '../../Private/Embed.js';
+import Embed from '../../Private/Templates/Embed.js';
 import MinecraftVersionTrackerError from '../../../Private/Error.js';
 import { ChannelType, type ChatInputCommandInteraction, PermissionFlagsBits } from 'discord.js';
 import type DiscordManager from '../../DiscordManager.js';

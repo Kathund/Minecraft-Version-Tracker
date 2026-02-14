@@ -25,3 +25,8 @@ export enum ButtonResponse {
   Ephemeral,
   Update
 }
+
+export interface AutoComplateOption {
+  name: string;
+  value?: string;
+}
