@@ -1,8 +1,7 @@
-/* eslint-disable require-await */
 import { Model } from 'mongoose';
 import type { MongoReturnData } from '../../Types/Mongo.js';
 
-class BaseMongo<DataType> {
+class BaseMongo<DataType extends Record<string, any>> {
   declare model: typeof Model;
   declare idField: string;
   constructor(model: typeof Model, idField: string = 'id') {
@@ -17,21 +16,29 @@ class BaseMongo<DataType> {
   }
 
   async getItem(id: string | number): Promise<MongoReturnData<DataType | null>> {
-    const item: DataType | null = await this.model.findOne({ id });
+    const item: DataType | null = await this.model.findOne({ [this.idField]: id });
     if (!item) return { success: false, info: 'Item not found', data: null };
     return { success: true, info: 'Item found', data: item };
   }
 
   async saveItem(data: DataType): Promise<MongoReturnData<DataType | null>> {
-    throw new Error('Execute Method not implemented!');
+    const itemCheck = await this.getItem(data[this.idField]);
+    if (itemCheck.success) return await this.updateItem(data);
+    const savedItem = new this.model(data);
+    await savedItem.save();
+    return { success: true, info: 'Item Saved', data: savedItem };
   }
 
-  async updateItem(newData: DataType): Promise<MongoReturnData<DataType | null>> {
-    throw new Error('Execute Method not implemented!');
+  async updateItem(data: DataType): Promise<MongoReturnData<DataType | null>> {
+    const updatedData: DataType | null = await this.model.findOneAndReplace(
+      { [this.idField]: data[this.idField] },
+      data
+    );
+    return { success: true, info: 'Item Updated', data: updatedData };
   }
 
   async deleteItem(id: string | number): Promise<MongoReturnData<null>> {
-    const result = await this.model.findOneAndDelete({ id });
+    const result = await this.model.findOneAndDelete({ [this.idField]: id });
     if (!result) return { success: false, info: 'Item not found', data: null };
     return { success: true, info: 'Item Deleted', data: null };
   }
