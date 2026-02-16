@@ -3,6 +3,7 @@ import CommandData from '../../Private/Commands/CommandData.js';
 import Embed from '../../Private/Templates/Embed.js';
 import MinecraftVersionTrackerError from '../../../Private/Error.js';
 import { ChannelType, type ChatInputCommandInteraction, PermissionFlagsBits } from 'discord.js';
+import { type VersionType, VersionTypeKeys, VersionTypeLabels } from '../../../Mongo/Version/Schema.js';
 import type DiscordManager from '../../DiscordManager.js';
 import type { Server } from '../../../Mongo/Server/Schema.js';
 
@@ -18,7 +19,7 @@ class SetupAlerts extends Command {
           .setName('type')
           .setDescription('Type of notification')
           .setRequired(true)
-          .addChoices({ name: 'Release', value: 'release' }, { name: 'Snapshot', value: 'snapshot' })
+          .addChoices(...Object.entries(VersionTypeLabels).map(([value, name]) => ({ name, value })))
       )
       .addChannelOption((option) =>
         option
@@ -42,7 +43,7 @@ class SetupAlerts extends Command {
       throw new MinecraftVersionTrackerError('Please run this in a channel');
     }
 
-    const type = (interaction.options.getString('type') ?? 'release') as 'release' | 'snapshot';
+    const type = (interaction.options.getString('type') ?? 'release') as VersionType;
     const channel = interaction.options.getChannel('channel') ?? interaction.channel;
     const channelData = await interaction.guild.channels.fetch(channel.id);
     if (channelData === null || !channelData.isSendable()) {
@@ -54,38 +55,35 @@ class SetupAlerts extends Command {
         'I cannot send messages in that channel. Please select a different channel'
       );
     }
+
     const role = interaction.options.getRole('role');
-
     const existing = await this.discord.Application.mongo.server.getItem(interaction.guild.id);
-    const data: Server = {
-      id: interaction.guild.id,
-      release: existing.data?.release ?? undefined,
-      snapshot: existing.data?.snapshot ?? undefined,
-      [type]: {
-        channel: channel.id,
-        role: role?.id ?? null
-      }
-    };
 
-    await this.discord.Application.mongo.server.saveItem(data);
+    const versionData = {} as Pick<Server, VersionType>;
+    for (const key of VersionTypeKeys) {
+      versionData[key] =
+        key === type ? { channel: channel.id, role: role?.id ?? null } : (existing.data?.[key] ?? undefined);
+    }
+
+    const save = await this.discord.Application.mongo.server.saveItem({
+      id: interaction.guild.id,
+      ...versionData
+    });
+    if (save.success === false || save.data === null) {
+      throw new MinecraftVersionTrackerError('Something went wrong while saving your server data');
+    }
+
+    const data = save.data;
 
     await interaction.followUp({
       embeds: [
         new Embed().setTitle('Alerts Changed').addFields(
-          {
-            name: 'Releases',
-            value: `**Channel:** ${
-              data.release?.channel ? `<#${data.release.channel}>` : '-'
-            }\n**Role:** ${data.release?.role ? `<@&${data.release.role}>` : '-'}`,
-            inline: true
-          },
-          {
-            name: 'Snapshots',
-            value: `**Channel:** ${
-              data.snapshot?.channel ? `<#${data.snapshot.channel}>` : '-'
-            }\n**Role:** ${data.snapshot?.role ? `<@&${data.snapshot.role}>` : '-'}`,
-            inline: true
-          }
+          ...VersionTypeKeys.map((key) => ({
+            name: VersionTypeLabels[key],
+            value: `**Channel:** ${data[key]?.channel ? `<#${data[key].channel}>` : '-'}\n**Role:** ${
+              data[key]?.role ? `<@&${data[key].role}>` : '-'
+            }`
+          }))
         )
       ]
     });

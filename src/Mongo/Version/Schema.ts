@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import { type InferSchemaType, Schema } from 'mongoose';
 
 export const VersionDownload = new Schema({
@@ -28,7 +29,14 @@ export const Version = new Schema({
   sha1: { type: String, required: true },
   complianceLevel: { type: Number, required: true }
 });
-export type VersionType = 'release' | 'snapshot' | 'old_beta' | 'old_alpha';
+export const VersionTypeKeys = ['release', 'snapshot', 'old_beta', 'old_alpha'] as const;
+export type VersionType = (typeof VersionTypeKeys)[number];
+export const VersionTypeLabels = {
+  release: 'Releases',
+  snapshot: 'Snapshots',
+  old_beta: 'Old Beta',
+  old_alpha: 'Old Alpha'
+} as const;
 export type Version = InferSchemaType<typeof Version>;
 
 export const VersionWithDownload = new Schema({
