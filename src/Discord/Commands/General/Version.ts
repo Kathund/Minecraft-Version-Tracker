@@ -51,8 +51,9 @@ class Version extends Command {
     if (versionId === null) throw new MinecraftVersionTrackerError('Missing version id field');
     const versionData = await this.discord.Application.mongo.version.getItem(versionId);
     if (!versionData.success || versionData.data === null) throw new MinecraftVersionTrackerError('Unknown version');
+    const articleData = await this.discord.Application.minecraftUtils.getMinecraftArticleData(versionData.data);
     await interaction.followUp({
-      components: await MinecraftVersion(versionData.data),
+      components: MinecraftVersion(versionData.data, articleData),
       flags: MessageFlags.IsComponentsV2
     });
   }

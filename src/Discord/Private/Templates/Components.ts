@@ -8,13 +8,12 @@ import {
   TextDisplayBuilder
 } from 'discord.js';
 import { FormatSize } from '../../../Utils/MathUtils.js';
-import { getMinecraftArticleData } from '../../../Utils/MinecraftUtils.js';
+import type { MinecraftVersionLinks } from '../../../Types/Minecraft.js';
 import type { VersionWithDownload } from '../../../Mongo/Version/Schema.js';
 
 // eslint-disable-next-line import/prefer-default-export
-export async function MinecraftVersion(version: VersionWithDownload) {
+export function MinecraftVersion(version: VersionWithDownload, articleData: MinecraftVersionLinks | null) {
   const releaseTime = Math.floor(new Date(version.releaseTime).getTime() / 1000);
-  const articleData = await getMinecraftArticleData(version);
 
   const container = new ContainerBuilder()
     .setAccentColor(16711680)
