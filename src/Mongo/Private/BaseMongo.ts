@@ -30,11 +30,8 @@ class BaseMongo<DataType extends Record<string, any>> {
   }
 
   async updateItem(data: DataType): Promise<MongoReturnData<DataType | null>> {
-    const updatedData: DataType | null = await this.model.findOneAndReplace(
-      { [this.idField]: data[this.idField] },
-      data
-    );
-    return { success: true, info: 'Item Updated', data: updatedData };
+    await this.model.findOneAndReplace({ [this.idField]: data[this.idField] }, data);
+    return { success: true, info: 'Item Updated', data };
   }
 
   async deleteItem(id: string | number): Promise<MongoReturnData<null>> {
