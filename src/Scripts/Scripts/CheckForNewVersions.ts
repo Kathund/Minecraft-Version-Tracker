@@ -64,7 +64,8 @@ class CheckForNewVersions extends Script {
     const serversDB = await this.scriptManager.Application.mongo.server.getItems();
     if (!serversDB.success || !serversDB.data?.length) return;
     const res = await this.scriptManager.Application.requestHandler.request(
-      'https://piston-meta.mojang.com/mc/game/version_manifest_v2.json'
+      'https://piston-meta.mojang.com/mc/game/version_manifest_v2.json',
+      { noCache: true }
     );
     const versions: Version[] = res.data.versions;
 
