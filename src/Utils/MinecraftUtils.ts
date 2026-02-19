@@ -9,11 +9,22 @@ class MinecraftUtils {
   }
 
   async getVersions(): Promise<Version[]> {
-    const res = await this.Application.requestHandler.request<FetchedVersions>(
+    const res = await this.Application.requestHandler.request(
       'https://piston-meta.mojang.com/mc/game/version_manifest_v2.json',
-      { noCache: true }
+      { noCache: true, parse: false }
     );
-    return res.data.versions;
+    const constantData = await this.Application.mongo.constant.get();
+    if (!constantData.success || constantData.data === null) {
+      const lastUpdatedHeader = res.headers.get('last-modified');
+      const minecraftVersions: FetchedVersions = JSON.parse(new TextDecoder().decode(res.data));
+      await this.Application.mongo.constant.saveItem({
+        id: 'const',
+        lastUpdatedMinecraftVersion: new Date(lastUpdatedHeader || new Date().getTime()).getTime(),
+        minecraftVersions
+      });
+      return minecraftVersions.versions;
+    }
+    return constantData.data.minecraftVersions.versions;
   }
 
   async getMinecraftArticleData(version: Version): Promise<MinecraftArticleDataResponse> {

@@ -7,18 +7,18 @@ import ScriptManager from './Scripts/ScriptManager.js';
 
 class Application {
   readonly cacheHandler: CacheHandler;
-  readonly discord: DiscordManager;
-  readonly mongo: MongoManager;
   readonly requestHandler: RequestHandler;
-  readonly scriptManager: ScriptManager;
   readonly minecraftUtils: MinecraftUtils;
+  readonly mongo: MongoManager;
+  readonly scriptManager: ScriptManager;
+  readonly discord: DiscordManager;
   constructor() {
     this.cacheHandler = new CacheHandler();
-    this.discord = new DiscordManager(this);
-    this.mongo = new MongoManager(this);
     this.requestHandler = new RequestHandler(this);
-    this.scriptManager = new ScriptManager(this);
     this.minecraftUtils = new MinecraftUtils(this);
+    this.mongo = new MongoManager(this);
+    this.scriptManager = new ScriptManager(this);
+    this.discord = new DiscordManager(this);
   }
 
   async connect() {

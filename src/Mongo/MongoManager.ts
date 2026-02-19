@@ -1,3 +1,4 @@
+import ConstantMongo from './Constant/ConstantMongo.js';
 import ServerMongo from './Server/ServerMongo.js';
 import VersionMongo from './Version/VersionMongo.js';
 import { connect } from 'mongoose';
@@ -5,10 +6,12 @@ import type Application from '../Application.js';
 
 class MongoManager {
   readonly Application: Application;
+  readonly constant: ConstantMongo;
   readonly server: ServerMongo;
   readonly version: VersionMongo;
   constructor(app: Application) {
     this.Application = app;
+    this.constant = new ConstantMongo(this);
     this.server = new ServerMongo();
     this.version = new VersionMongo(this);
   }
