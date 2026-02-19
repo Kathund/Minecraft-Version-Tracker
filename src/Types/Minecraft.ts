@@ -1,6 +1,7 @@
 export interface MinecraftArticleData {
   article: string | null;
   wiki: string;
+  source: string | null;
 }
 
 export interface MinecraftArticleDataResponse {

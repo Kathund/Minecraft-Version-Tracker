@@ -1,6 +1,6 @@
 import Script from '../Private/Script.js';
-import { MessageFlags, TextDisplayBuilder } from 'discord.js';
-import { MinecraftVersion } from '../../Discord/Private/Templates/Components.js';
+import { MessageFlags } from 'discord.js';
+import { MinecraftVersion, NewMinecraftVersion } from '../../Discord/Private/Templates/Components.js';
 import {
   type Version,
   type VersionType,
@@ -27,10 +27,7 @@ class CheckForNewVersions extends Script {
       const role = server[version.type]?.role ? `- <@&${server[version.type]?.role}>` : '';
 
       await channel.send({
-        components: [
-          new TextDisplayBuilder().setContent(`New **${version.type}!** ${role}`.trim()),
-          ...MinecraftVersion(version, articleData)
-        ],
+        components: [NewMinecraftVersion(version, role), ...MinecraftVersion(version, articleData)],
         flags: MessageFlags.IsComponentsV2
       });
     } catch (error) {

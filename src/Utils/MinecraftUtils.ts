@@ -17,9 +17,14 @@ class MinecraftUtils {
 
     if (data !== undefined) return { data, generated: false };
 
+    const releaseTime = Math.floor(new Date(version.releaseTime).getTime() / 1000);
     data = {
       article: this.generateMinecraftArticleURL(version),
-      wiki: `https://minecraft.wiki/w/Java_Edition_${version.id.replaceAll('a1.', 'Alpha_1.').replaceAll('b1.', 'Beta_1.')}`
+      wiki: `https://minecraft.wiki/w/Java_Edition_${version.id.replaceAll('a1.', 'Alpha_1.').replaceAll('b1.', 'Beta_1.')}`,
+      source:
+        releaseTime >= 1765888949
+          ? `https://mcsrc.dev/1/${version.id.replaceAll(' ', '_')}/net/minecraft/client/main/Main`
+          : null
     };
     return { data, generated: true };
   }
