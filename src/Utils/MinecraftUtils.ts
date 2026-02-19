@@ -10,7 +10,7 @@ class MinecraftUtils {
 
   async getMinecraftArticleData(version: Version): Promise<MinecraftArticleDataResponse> {
     const res = await this.Application.requestHandler.request(
-      'https://gist.githubusercontent.com/Kathund/61625ab094cba15d0519f2ac83b4ca86/raw/MinecraftVersionMap.json'
+      'https://raw.githubusercontent.com/Kathund/Minecraft-Version-Tracker/refs/heads/main/Data/Versions.json'
     );
     const json: Record<string, MinecraftArticleData> = await res.data;
     let data: MinecraftArticleData | undefined = json[version.id] ?? undefined;

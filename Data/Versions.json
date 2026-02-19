@@ -1,0 +1,4337 @@
+{
+  "26.1-snapshot-9": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-9",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-9",
+    "source": "https://mcsrc.dev/1/26.1-snapshot-9/net/minecraft/client/main/Main"
+  },
+  "26.1-snapshot-8": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-8",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-8",
+    "source": "https://mcsrc.dev/1/26.1-snapshot-8/net/minecraft/client/main/Main"
+  },
+  "26.1-snapshot-7": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-7",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-7",
+    "source": "https://mcsrc.dev/1/26.1-snapshot-7/net/minecraft/client/main/Main"
+  },
+  "26.1-snapshot-6": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-6",
+    "source": "https://mcsrc.dev/1/26.1-snapshot-6/net/minecraft/client/main/Main"
+  },
+  "26.1-snapshot-5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-5",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-5",
+    "source": "https://mcsrc.dev/1/26.1-snapshot-5/net/minecraft/client/main/Main"
+  },
+  "26.1-snapshot-4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-4",
+    "source": "https://mcsrc.dev/1/26.1-snapshot-4/net/minecraft/client/main/Main"
+  },
+  "26.1-snapshot-3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-3",
+    "source": "https://mcsrc.dev/1/26.1-snapshot-3/net/minecraft/client/main/Main"
+  },
+  "26.1-snapshot-2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-2",
+    "source": "https://mcsrc.dev/1/26.1-snapshot-2/net/minecraft/client/main/Main"
+  },
+  "26.1-snapshot-1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-1",
+    "source": "https://mcsrc.dev/1/26.1-snapshot-1/net/minecraft/client/main/Main"
+  },
+  "1.21.11": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-11",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.11",
+    "source": null
+  },
+  "1.21.11-rc3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-11-release-candidate-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.11-rc3",
+    "source": null
+  },
+  "1.21.11-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-11-release-candidate-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.11-rc2",
+    "source": null
+  },
+  "1.21.11-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-11-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.11-rc1",
+    "source": null
+  },
+  "1.21.11-pre5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-11-pre-release-5",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.11-pre5",
+    "source": null
+  },
+  "1.21.11-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-11-pre-release-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.11-pre4",
+    "source": null
+  },
+  "1.21.11-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-11-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.11-pre3",
+    "source": null
+  },
+  "1.21.11-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-11-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.11-pre2",
+    "source": null
+  },
+  "1.21.11-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-11-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.11-pre1",
+    "source": null
+  },
+  "25w46a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w46a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w46a",
+    "source": null
+  },
+  "25w45a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w45a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w45a",
+    "source": null
+  },
+  "25w44a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w44a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w44a",
+    "source": null
+  },
+  "25w43a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w43a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w43a",
+    "source": null
+  },
+  "25w42a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w42a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w42a",
+    "source": null
+  },
+  "25w41a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w41a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w41a",
+    "source": null
+  },
+  "1.21.10": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-10",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.10",
+    "source": null
+  },
+  "1.21.10-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-10-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.10-rc1",
+    "source": null
+  },
+  "1.21.9": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-9",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.9",
+    "source": null
+  },
+  "1.21.9-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-9-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.9-rc1",
+    "source": null
+  },
+  "1.21.9-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-9-pre-release-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.9-pre4",
+    "source": null
+  },
+  "1.21.9-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-9-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.9-pre3",
+    "source": null
+  },
+  "1.21.9-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-9-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.9-pre2",
+    "source": null
+  },
+  "1.21.9-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-9-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.9-pre1",
+    "source": null
+  },
+  "25w37a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w37a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w37a",
+    "source": null
+  },
+  "25w36b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w36a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w36b",
+    "source": null
+  },
+  "25w36a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w36a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w36a",
+    "source": null
+  },
+  "25w35a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w35a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w35a",
+    "source": null
+  },
+  "25w34b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w34a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w34b",
+    "source": null
+  },
+  "25w34a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w34a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w34a",
+    "source": null
+  },
+  "25w33a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w33a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w33a",
+    "source": null
+  },
+  "25w32a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w32a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w32a",
+    "source": null
+  },
+  "25w31a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w31a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w31a",
+    "source": null
+  },
+  "1.21.8": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-8",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.8",
+    "source": null
+  },
+  "1.21.8-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-8-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.8-rc1",
+    "source": null
+  },
+  "1.21.7": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-7",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.7",
+    "source": null
+  },
+  "1.21.7-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-7-release-candidate-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.7-rc2",
+    "source": null
+  },
+  "1.21.7-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-7-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.7-rc1",
+    "source": null
+  },
+  "1.21.6": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.6",
+    "source": null
+  },
+  "1.21.6-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-6-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.6-rc1",
+    "source": null
+  },
+  "1.21.6-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-6-pre-release-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.6-pre4",
+    "source": null
+  },
+  "1.21.6-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-6-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.6-pre3",
+    "source": null
+  },
+  "1.21.6-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-6-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.6-pre2",
+    "source": null
+  },
+  "1.21.6-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-6-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.6-pre1",
+    "source": null
+  },
+  "25w21a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w21a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w21a",
+    "source": null
+  },
+  "25w20a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w20a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w20a",
+    "source": null
+  },
+  "25w19a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w19a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w19a",
+    "source": null
+  },
+  "25w18a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w18a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w18a",
+    "source": null
+  },
+  "25w17a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w17a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w17a",
+    "source": null
+  },
+  "25w16a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w16a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w16a",
+    "source": null
+  },
+  "25w15a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w15a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w15a",
+    "source": null
+  },
+  "25w14craftmine": {
+    "article": "https://www.minecraft.net/en-us/article/the-craftmine-update",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w14craftmine",
+    "source": null
+  },
+  "1.21.5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-5",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.5",
+    "source": null
+  },
+  "1.21.5-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-5-release-candidate-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.5-rc2",
+    "source": null
+  },
+  "1.21.5-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-5-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.5-rc1",
+    "source": null
+  },
+  "1.21.5-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-5-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.5-pre3",
+    "source": null
+  },
+  "1.21.5-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-5-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.5-pre2",
+    "source": null
+  },
+  "1.21.5-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-5-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.5-pre1",
+    "source": null
+  },
+  "25w10a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w10a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w10a",
+    "source": null
+  },
+  "25w09b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w09b",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w09b",
+    "source": null
+  },
+  "25w09a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w09a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w09a",
+    "source": null
+  },
+  "25w08a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w08a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w08a",
+    "source": null
+  },
+  "25w07a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w07a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w07a",
+    "source": null
+  },
+  "25w06a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w06a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w06a",
+    "source": null
+  },
+  "25w05a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w05a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w05a",
+    "source": null
+  },
+  "25w04a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w04a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w04a",
+    "source": null
+  },
+  "25w03a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w03a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w03a",
+    "source": null
+  },
+  "25w02a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-25w02a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_25w02a",
+    "source": null
+  },
+  "1.21.4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.4",
+    "source": null
+  },
+  "1.21.4-rc3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-4-release-candidate-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.4-rc3",
+    "source": null
+  },
+  "1.21.4-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-4-release-candidate-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.4-rc2",
+    "source": null
+  },
+  "1.21.4-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-4-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.4-rc1",
+    "source": null
+  },
+  "1.21.4-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-4-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.4-pre3",
+    "source": null
+  },
+  "1.21.4-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-4-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.4-pre2",
+    "source": null
+  },
+  "1.21.4-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-4-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.4-pre1",
+    "source": null
+  },
+  "24w46a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w46a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w46a",
+    "source": null
+  },
+  "24w45a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w45a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w45a",
+    "source": null
+  },
+  "24w44a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w44a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w44a",
+    "source": null
+  },
+  "1.21.3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.3",
+    "source": null
+  },
+  "1.21.2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.2",
+    "source": null
+  },
+  "1.21.2-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-2-release-candidate-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.2-rc2",
+    "source": null
+  },
+  "1.21.2-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-2-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.2-rc1",
+    "source": null
+  },
+  "1.21.2-pre5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-2-pre-release-5",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.2-pre5",
+    "source": null
+  },
+  "1.21.2-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-2-pre-release-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.2-pre4",
+    "source": null
+  },
+  "1.21.2-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-2-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.2-pre3",
+    "source": null
+  },
+  "1.21.2-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-2-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.2-pre2",
+    "source": null
+  },
+  "1.21.2-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-2-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.2-pre1",
+    "source": null
+  },
+  "24w40a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w40a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w40a",
+    "source": null
+  },
+  "24w39a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w39a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w39a",
+    "source": null
+  },
+  "24w38a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w38a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w38a",
+    "source": null
+  },
+  "24w37a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w37a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w37a",
+    "source": null
+  },
+  "24w36a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w36a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w36a",
+    "source": null
+  },
+  "24w35a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w35a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w35a",
+    "source": null
+  },
+  "24w34a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w34a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w34a",
+    "source": null
+  },
+  "24w33a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w33a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w33a",
+    "source": null
+  },
+  "1.21.1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.1",
+    "source": null
+  },
+  "1.21.1-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-1-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21.1-rc1",
+    "source": null
+  },
+  "1.21": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21",
+    "source": null
+  },
+  "1.21-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21-rc1",
+    "source": null
+  },
+  "1.21-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-pre-release-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21-pre4",
+    "source": null
+  },
+  "1.21-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21-pre3",
+    "source": null
+  },
+  "1.21-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21-pre2",
+    "source": null
+  },
+  "1.21-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-21-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.21-pre1",
+    "source": null
+  },
+  "24w21b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w21a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w21b",
+    "source": null
+  },
+  "24w21a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w21a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w21a",
+    "source": null
+  },
+  "24w20a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w20a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w20a",
+    "source": null
+  },
+  "24w19b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w19a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w19b",
+    "source": null
+  },
+  "24w19a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w19a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w19a",
+    "source": null
+  },
+  "24w18a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w18a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w18a",
+    "source": null
+  },
+  "1.20.6": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.6",
+    "source": null
+  },
+  "1.20.6-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-6-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.6-rc1",
+    "source": null
+  },
+  "1.20.5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-5",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.5",
+    "source": null
+  },
+  "1.20.5-rc3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-5-release-candidate-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.5-rc3",
+    "source": null
+  },
+  "1.20.5-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-5-release-candidate-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.5-rc2",
+    "source": null
+  },
+  "1.20.5-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-5-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.5-rc1",
+    "source": null
+  },
+  "1.20.5-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-5-pre-release-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.5-pre4",
+    "source": null
+  },
+  "1.20.5-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-5-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.5-pre3",
+    "source": null
+  },
+  "1.20.5-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-5-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.5-pre2",
+    "source": null
+  },
+  "1.20.5-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-5-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.5-pre1",
+    "source": null
+  },
+  "24w14a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w14a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w14a",
+    "source": null
+  },
+  "24w14potato": {
+    "article": "https://www.minecraft.net/en-us/article/poisonous-potato-update",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w14potato",
+    "source": null
+  },
+  "24w13a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w13a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w13a",
+    "source": null
+  },
+  "24w12a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w12a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w12a",
+    "source": null
+  },
+  "24w11a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w11a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w11a",
+    "source": null
+  },
+  "24w10a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w10a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w10a",
+    "source": null
+  },
+  "24w09a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w09a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w09a",
+    "source": null
+  },
+  "24w07a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w07a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w07a",
+    "source": null
+  },
+  "24w06a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w06a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w06a",
+    "source": null
+  },
+  "24w05b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w05b",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w05b",
+    "source": null
+  },
+  "24w05a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w05a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w05a",
+    "source": null
+  },
+  "24w04a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w04a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w04a",
+    "source": null
+  },
+  "24w03b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w03b",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w03b",
+    "source": null
+  },
+  "24w03a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-24w03a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_24w03a",
+    "source": null
+  },
+  "23w51b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w51a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w51b",
+    "source": null
+  },
+  "23w51a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w51a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w51a",
+    "source": null
+  },
+  "1.20.4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.4",
+    "source": null
+  },
+  "1.20.4-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-4-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.4-rc1",
+    "source": null
+  },
+  "1.20.3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.3",
+    "source": null
+  },
+  "1.20.3-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-3-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.3-rc1",
+    "source": null
+  },
+  "1.20.3-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-3-pre-release-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.3-pre4",
+    "source": null
+  },
+  "1.20.3-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-3-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.3-pre3",
+    "source": null
+  },
+  "1.20.3-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-3-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.3-pre2",
+    "source": null
+  },
+  "1.20.3-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-3-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.3-pre1",
+    "source": null
+  },
+  "23w46a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w46a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w46a",
+    "source": null
+  },
+  "23w45a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w45a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w45a",
+    "source": null
+  },
+  "23w44a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w44a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w44a",
+    "source": null
+  },
+  "23w43b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w43b",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w43b",
+    "source": null
+  },
+  "23w43a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w43a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w43a",
+    "source": null
+  },
+  "23w42a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w42a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w42a",
+    "source": null
+  },
+  "23w41a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w41a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w41a",
+    "source": null
+  },
+  "23w40a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w40a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w40a",
+    "source": null
+  },
+  "1.20.2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.2",
+    "source": null
+  },
+  "1.20.2-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-2-release-candidate-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.2-rc2",
+    "source": null
+  },
+  "1.20.2-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-2-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.2-rc1",
+    "source": null
+  },
+  "1.20.2-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-2-pre-release-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.2-pre4",
+    "source": null
+  },
+  "1.20.2-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-2-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.2-pre3",
+    "source": null
+  },
+  "1.20.2-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-2-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.2-pre2",
+    "source": null
+  },
+  "1.20.2-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-2-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.2-pre1",
+    "source": null
+  },
+  "23w35a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w35a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w35a",
+    "source": null
+  },
+  "23w33a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w33a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w33a",
+    "source": null
+  },
+  "23w32a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w32a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w32a",
+    "source": null
+  },
+  "23w31a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w31a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w31a",
+    "source": null
+  },
+  "1.20.1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft--java-edition-1-20-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.1",
+    "source": null
+  },
+  "1.20.1-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-1-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20.1-rc1",
+    "source": null
+  },
+  "1.20": {
+    "article": "https://www.minecraft.net/en-us/article/trails-tales-update-out-today-java",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20",
+    "source": null
+  },
+  "1.20-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20-rc1",
+    "source": null
+  },
+  "1.20-pre7": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-pre-release-7",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20-pre7",
+    "source": null
+  },
+  "1.20-pre6": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-pre-release-5",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20-pre6",
+    "source": null
+  },
+  "1.20-pre5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-pre-release-5",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20-pre5",
+    "source": null
+  },
+  "1.20-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20-pre4",
+    "source": null
+  },
+  "1.20-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20-pre3",
+    "source": null
+  },
+  "1.20-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20-pre2",
+    "source": null
+  },
+  "1.20-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-20-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.20-pre1",
+    "source": null
+  },
+  "23w18a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w18a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w18a",
+    "source": null
+  },
+  "23w17a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w17a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w17a",
+    "source": null
+  },
+  "23w16a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w16a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w16a",
+    "source": null
+  },
+  "23w14a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w14a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w14a",
+    "source": null
+  },
+  "23w13a_or_b": {
+    "article": "https://www.minecraft.net/en-us/article/vote-update",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w13a_or_b",
+    "source": null
+  },
+  "23w13a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w13a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w13a",
+    "source": null
+  },
+  "23w12a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w12a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w12a",
+    "source": null
+  },
+  "1.19.4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-19-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.4",
+    "source": null
+  },
+  "1.19.4-rc3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-4-release-candidate-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.4-rc3",
+    "source": null
+  },
+  "1.19.4-rc2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.4-rc2",
+    "source": null
+  },
+  "1.19.4-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-4-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.4-rc1",
+    "source": null
+  },
+  "1.19.4-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-4-pre-release-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.4-pre4",
+    "source": null
+  },
+  "1.19.4-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-4-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.4-pre3",
+    "source": null
+  },
+  "1.19.4-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-4-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.4-pre2",
+    "source": null
+  },
+  "1.19.4-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-4-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.4-pre1",
+    "source": null
+  },
+  "23w07a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w07a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w07a",
+    "source": null
+  },
+  "23w06a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w06a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w06a",
+    "source": null
+  },
+  "23w05a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w05a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w05a",
+    "source": null
+  },
+  "23w04a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w04a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w04a",
+    "source": null
+  },
+  "23w03a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-23w03a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_23w03a",
+    "source": null
+  },
+  "1.19.3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-19-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.3",
+    "source": null
+  },
+  "1.19.3-rc3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-3-release-candidate-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.3-rc3",
+    "source": null
+  },
+  "1.19.3-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-3-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.3-rc2",
+    "source": null
+  },
+  "1.19.3-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-3-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.3-rc1",
+    "source": null
+  },
+  "1.19.3-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-3-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.3-pre3",
+    "source": null
+  },
+  "1.19.3-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-3-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.3-pre2",
+    "source": null
+  },
+  "1.19.3-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-3-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.3-pre1",
+    "source": null
+  },
+  "22w46a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w46a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w46a",
+    "source": null
+  },
+  "22w45a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w45a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w45a",
+    "source": null
+  },
+  "22w44a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w44a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w44a",
+    "source": null
+  },
+  "22w43a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w43a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w43a",
+    "source": null
+  },
+  "22w42a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w42a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w42a",
+    "source": null
+  },
+  "1.19.2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-19-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.2",
+    "source": null
+  },
+  "1.19.2-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-2-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.2-rc2",
+    "source": null
+  },
+  "1.19.2-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-2-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.2-rc1",
+    "source": null
+  },
+  "1.19.1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-19-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.1",
+    "source": null
+  },
+  "1.19.1-rc3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-release-candidate-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.1-rc3",
+    "source": null
+  },
+  "1.19.1-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-release-candidate-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.1-rc2",
+    "source": null
+  },
+  "1.19.1-pre6": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-pre-release-6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.1-pre6",
+    "source": null
+  },
+  "1.19.1-pre5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-pre-release-5",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.1-pre5",
+    "source": null
+  },
+  "1.19.1-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.1-pre4",
+    "source": null
+  },
+  "1.19.1-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.1-pre3",
+    "source": null
+  },
+  "1.19.1-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.1-pre2",
+    "source": null
+  },
+  "1.19.1-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.1-rc1",
+    "source": null
+  },
+  "1.19.1-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-1-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19.1-pre1",
+    "source": null
+  },
+  "22w24a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w24a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w24a",
+    "source": null
+  },
+  "1.19": {
+    "article": "https://www.minecraft.net/en-us/article/the-wild-update-coming",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19",
+    "source": null
+  },
+  "1.19-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19-rc2",
+    "source": null
+  },
+  "1.19-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19-rc1",
+    "source": null
+  },
+  "1.19-pre5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-pre-release-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19-pre5",
+    "source": null
+  },
+  "1.19-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-pre-release-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19-pre4",
+    "source": null
+  },
+  "1.19-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19-pre3",
+    "source": null
+  },
+  "1.19-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19-pre2",
+    "source": null
+  },
+  "1.19-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-19-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.19-pre1",
+    "source": null
+  },
+  "22w19a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w19a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w19a",
+    "source": null
+  },
+  "22w18a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w18a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w18a",
+    "source": null
+  },
+  "22w17a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w17a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w17a",
+    "source": null
+  },
+  "22w16b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w16a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w16b",
+    "source": null
+  },
+  "22w16a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w16a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w16a",
+    "source": null
+  },
+  "22w15a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w15a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w15a",
+    "source": null
+  },
+  "22w14a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w14a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w14a",
+    "source": null
+  },
+  "22w13oneblockatatime": {
+    "article": "https://www.minecraft.net/en-us/article/mojang-studios-release-new-astonishing-update",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w13oneblockatatime",
+    "source": null
+  },
+  "22w13a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w13a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w13a",
+    "source": null
+  },
+  "22w12a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w12a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w12a",
+    "source": null
+  },
+  "22w11a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w11a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w11a",
+    "source": null
+  },
+  "1.18.2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-18-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18.2",
+    "source": null
+  },
+  "1.18.2-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-2-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18.2-rc1",
+    "source": null
+  },
+  "1.18.2-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-2-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18.2-pre3",
+    "source": null
+  },
+  "1.18.2-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-2-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18.2-pre2",
+    "source": null
+  },
+  "1.18.2-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-2-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18.2-pre1",
+    "source": null
+  },
+  "22w07a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w07a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w07a",
+    "source": null
+  },
+  "22w06a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w06a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w06a",
+    "source": null
+  },
+  "22w05a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w05a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w05a",
+    "source": null
+  },
+  "22w03a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-22w03a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_22w03a",
+    "source": null
+  },
+  "1.18.1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-18-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18.1",
+    "source": null
+  },
+  "1.18.1-rc3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-1-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18.1-rc3",
+    "source": null
+  },
+  "1.18.1-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-1-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18.1-rc2",
+    "source": null
+  },
+  "1.18.1-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-1-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18.1-rc1",
+    "source": null
+  },
+  "1.18.1-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-1-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18.1-pre1",
+    "source": null
+  },
+  "1.18": {
+    "article": "https://www.minecraft.net/en-us/article/caves---cliffs--part-ii-out-today-java",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18",
+    "source": null
+  },
+  "1.18-rc4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18-rc4",
+    "source": null
+  },
+  "1.18-rc3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18-rc3",
+    "source": null
+  },
+  "1.18-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18-rc2",
+    "source": null
+  },
+  "1.18-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18-rc1",
+    "source": null
+  },
+  "1.18-pre8": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-pre-release-6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18-pre8",
+    "source": null
+  },
+  "1.18-pre7": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-pre-release-6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18-pre7",
+    "source": null
+  },
+  "1.18-pre6": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-pre-release-6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18-pre6",
+    "source": null
+  },
+  "1.18-pre5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18-pre5",
+    "source": null
+  },
+  "1.18-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18-pre4",
+    "source": null
+  },
+  "1.18-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18-pre3",
+    "source": null
+  },
+  "1.18-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18-pre2",
+    "source": null
+  },
+  "1.18-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-18-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.18-pre1",
+    "source": null
+  },
+  "21w44a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w44a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w44a",
+    "source": null
+  },
+  "21w43a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w43a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w43a",
+    "source": null
+  },
+  "21w42a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w42a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w42a",
+    "source": null
+  },
+  "21w41a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w41a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w41a",
+    "source": null
+  },
+  "21w40a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w40a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w40a",
+    "source": null
+  },
+  "21w39a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w39a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w39a",
+    "source": null
+  },
+  "21w38a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w38a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w38a",
+    "source": null
+  },
+  "21w37a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w37a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w37a",
+    "source": null
+  },
+  "1.17.1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-17-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.17.1",
+    "source": null
+  },
+  "1.17.1-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-17-1-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.17.1-rc2",
+    "source": null
+  },
+  "1.17.1-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-17-1-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.17.1-rc1",
+    "source": null
+  },
+  "1.17.1-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-17-1-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.17.1-pre3",
+    "source": null
+  },
+  "1.17.1-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-17-1-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.17.1-pre2",
+    "source": null
+  },
+  "1.17.1-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-17-1-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.17.1-pre1",
+    "source": null
+  },
+  "1.17": {
+    "article": "https://www.minecraft.net/en-us/article/a-caves---cliffs-announcement",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.17",
+    "source": null
+  },
+  "1.17-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-17-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.17-rc2",
+    "source": null
+  },
+  "1.17-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-17-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.17-rc1",
+    "source": null
+  },
+  "1.17-pre5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-17-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.17-pre5",
+    "source": null
+  },
+  "1.17-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-17-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.17-pre4",
+    "source": null
+  },
+  "1.17-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-17-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.17-pre3",
+    "source": null
+  },
+  "1.17-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-17-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.17-pre2",
+    "source": null
+  },
+  "1.17-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-17-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.17-pre1",
+    "source": null
+  },
+  "21w20a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w20a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w20a",
+    "source": null
+  },
+  "21w19a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w19a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w19a",
+    "source": null
+  },
+  "21w18a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w18a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w18a",
+    "source": null
+  },
+  "21w17a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w17a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w17a",
+    "source": null
+  },
+  "21w16a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w16a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w16a",
+    "source": null
+  },
+  "21w15a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w15a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w15a",
+    "source": null
+  },
+  "21w14a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w14a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w14a",
+    "source": null
+  },
+  "21w13a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w13a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w13a",
+    "source": null
+  },
+  "21w11a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w11a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w11a",
+    "source": null
+  },
+  "21w10a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w10a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w10a",
+    "source": null
+  },
+  "21w08b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w08a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w08b",
+    "source": null
+  },
+  "21w08a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w08a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w08a",
+    "source": null
+  },
+  "21w07a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w07a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w07a",
+    "source": null
+  },
+  "21w06a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w06a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w06a",
+    "source": null
+  },
+  "21w05b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w05a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w05b",
+    "source": null
+  },
+  "21w05a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w05a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w05a",
+    "source": null
+  },
+  "21w03a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-21w03a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_21w03a",
+    "source": null
+  },
+  "1.16.5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-16-5",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16.5",
+    "source": null
+  },
+  "1.16.5-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-5-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16.5-rc1",
+    "source": null
+  },
+  "20w51a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w51a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w51a",
+    "source": null
+  },
+  "20w49a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w49a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w49a",
+    "source": null
+  },
+  "20w48a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w48a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w48a",
+    "source": null
+  },
+  "20w46a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w46a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w46a",
+    "source": null
+  },
+  "20w45a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w45a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w45a",
+    "source": null
+  },
+  "1.16.4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-16-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16.4",
+    "source": null
+  },
+  "1.16.4-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-4-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16.4-rc1",
+    "source": null
+  },
+  "1.16.4-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-4-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16.4-pre2",
+    "source": null
+  },
+  "1.16.4-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-4-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16.4-pre1",
+    "source": null
+  },
+  "1.16.3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-16-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16.3",
+    "source": null
+  },
+  "1.16.3-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-3-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16.3-rc1",
+    "source": null
+  },
+  "1.16.2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-16-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16.2",
+    "source": null
+  },
+  "1.16.2-rc2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-2-pre-release-2?rc2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16.2-rc2",
+    "source": null
+  },
+  "1.16.2-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-2-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16.2-rc1",
+    "source": null
+  },
+  "1.16.2-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-2-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16.2-pre3",
+    "source": null
+  },
+  "1.16.2-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-2-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16.2-pre2",
+    "source": null
+  },
+  "1.16.2-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-2-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16.2-pre1",
+    "source": null
+  },
+  "20w30a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w30a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w30a",
+    "source": null
+  },
+  "20w29a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w29a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w29a",
+    "source": null
+  },
+  "20w28a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w28a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w28a",
+    "source": null
+  },
+  "20w27a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w27a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w27a",
+    "source": null
+  },
+  "1.16.1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-16-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16.1",
+    "source": null
+  },
+  "1.16": {
+    "article": "https://www.minecraft.net/en-us/article/nether-update-java",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16",
+    "source": null
+  },
+  "1.16-rc1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-release-candidate",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16-rc1",
+    "source": null
+  },
+  "1.16-pre8": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-pre-release-6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16-pre8",
+    "source": null
+  },
+  "1.16-pre7": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-pre-release-6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16-pre7",
+    "source": null
+  },
+  "1.16-pre6": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-pre-release-6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16-pre6",
+    "source": null
+  },
+  "1.16-pre5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16-pre5",
+    "source": null
+  },
+  "1.16-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16-pre4",
+    "source": null
+  },
+  "1.16-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16-pre3",
+    "source": null
+  },
+  "1.16-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16-pre2",
+    "source": null
+  },
+  "1.16-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-16-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.16-pre1",
+    "source": null
+  },
+  "20w22a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w22a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w22a",
+    "source": null
+  },
+  "20w21a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w21a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w21a",
+    "source": null
+  },
+  "20w20b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w20a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w20b",
+    "source": null
+  },
+  "20w20a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w20a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w20a",
+    "source": null
+  },
+  "20w19a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w19a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w19a",
+    "source": null
+  },
+  "20w18a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w18a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w18a",
+    "source": null
+  },
+  "20w17a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w17a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w17a",
+    "source": null
+  },
+  "20w16a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w16a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w16a",
+    "source": null
+  },
+  "20w15a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w15a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w15a",
+    "source": null
+  },
+  "20w14a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w14a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w14a",
+    "source": null
+  },
+  "20w14infinite": {
+    "article": "https://www.minecraft.net/en-us/article/every-update-imaginable-coming-minecraft",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w14infinite",
+    "source": null
+  },
+  "20w13b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w13a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w13b",
+    "source": null
+  },
+  "20w13a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w13a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w13a",
+    "source": null
+  },
+  "20w12a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w12a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w12a",
+    "source": null
+  },
+  "20w11a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w11a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w11a",
+    "source": null
+  },
+  "20w10a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w10a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w10a",
+    "source": null
+  },
+  "20w09a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w09a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w09a",
+    "source": null
+  },
+  "20w08a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w08a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w08a",
+    "source": null
+  },
+  "20w07a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w07a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w07a",
+    "source": null
+  },
+  "20w06a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-20w06a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_20w06a",
+    "source": null
+  },
+  "1.15.2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-15-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.15.2",
+    "source": null
+  },
+  "1.15.2-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-15-2-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.15.2-pre2",
+    "source": null
+  },
+  "1.15.2-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-15-2-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.15.2-pre1",
+    "source": null
+  },
+  "1.15.1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-15-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.15.1",
+    "source": null
+  },
+  "1.15.1-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-15-1-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.15.1-pre1",
+    "source": null
+  },
+  "1.15": {
+    "article": "https://www.minecraft.net/en-us/article/buzzy-bees-out-now-in-java/",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.15",
+    "source": null
+  },
+  "1.15-pre7": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-15-pre-release-1?7",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.15-pre7",
+    "source": null
+  },
+  "1.15-pre6": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-15-pre-release-1?6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.15-pre6",
+    "source": null
+  },
+  "1.15-pre5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-15-pre-release-1?5",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.15-pre5",
+    "source": null
+  },
+  "1.15-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-15-pre-release-1?4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.15-pre4",
+    "source": null
+  },
+  "1.15-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-15-pre-release-1?3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.15-pre3",
+    "source": null
+  },
+  "1.15-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-15-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.15-pre2",
+    "source": null
+  },
+  "1.15-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-15-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.15-pre1",
+    "source": null
+  },
+  "19w46b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w46a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w46b",
+    "source": null
+  },
+  "19w46a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w46a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w46a",
+    "source": null
+  },
+  "19w45b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w45a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w45b",
+    "source": null
+  },
+  "19w45a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w45a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w45a",
+    "source": null
+  },
+  "19w44a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w44a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w44a",
+    "source": null
+  },
+  "19w42a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w42a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w42a",
+    "source": null
+  },
+  "19w41a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w41a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w41a",
+    "source": null
+  },
+  "19w40a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w40a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w40a",
+    "source": null
+  },
+  "19w39a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w39a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w39a",
+    "source": null
+  },
+  "19w38b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w38a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w38b",
+    "source": null
+  },
+  "19w38a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w38a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w38a",
+    "source": null
+  },
+  "19w37a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w37a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w37a",
+    "source": null
+  },
+  "19w36a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w36a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w36a",
+    "source": null
+  },
+  "19w35a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w35a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w35a",
+    "source": null
+  },
+  "19w34a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w34a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w34a",
+    "source": null
+  },
+  "1.14.4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-1-14-4-released",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.4",
+    "source": null
+  },
+  "1.14.4-pre7": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-4-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.4-pre7",
+    "source": null
+  },
+  "1.14.4-pre6": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-4-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.4-pre6",
+    "source": null
+  },
+  "1.14.4-pre5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-4-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.4-pre5",
+    "source": null
+  },
+  "1.14.4-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-4-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.4-pre4",
+    "source": null
+  },
+  "1.14.4-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-4-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.4-pre3",
+    "source": null
+  },
+  "1.14.4-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-4-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.4-pre2",
+    "source": null
+  },
+  "1.14.4-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-4-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.4-pre1",
+    "source": null
+  },
+  "1.14.3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-14-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.3",
+    "source": null
+  },
+  "1.14.3-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-3-pre-release-1?4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.3-pre4",
+    "source": null
+  },
+  "1.14.3-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-3-pre-release-1?3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.3-pre3",
+    "source": null
+  },
+  "1.14.3-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-3-pre-release-1?2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.3-pre2",
+    "source": null
+  },
+  "1.14.3-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-3-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.3-pre1",
+    "source": null
+  },
+  "1.14.2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-14-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.2",
+    "source": null
+  },
+  "1.14.2 Pre-Release 4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-2-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.2%20Pre-Release%204",
+    "source": null
+  },
+  "1.14.2 Pre-Release 3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-2-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.2%20Pre-Release%203",
+    "source": null
+  },
+  "1.14.2 Pre-Release 2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-2-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.2%20Pre-Release%202",
+    "source": null
+  },
+  "1.14.2 Pre-Release 1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-2-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.2%20Pre-Release%201",
+    "source": null
+  },
+  "1.14.1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-14-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.1",
+    "source": null
+  },
+  "1.14.1 Pre-Release 2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-1-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.1%20Pre-Release%202",
+    "source": null
+  },
+  "1.14.1 Pre-Release 1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-1-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14.1%20Pre-Release%201",
+    "source": null
+  },
+  "1.14": {
+    "article": "https://www.minecraft.net/en-us/article/village---pillage-out-java-",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14",
+    "source": null
+  },
+  "1.14 Pre-Release 5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14%20Pre-Release%205",
+    "source": null
+  },
+  "1.14 Pre-Release 4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14%20Pre-Release%204",
+    "source": null
+  },
+  "1.14 Pre-Release 3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14%20Pre-Release%203",
+    "source": null
+  },
+  "1.14 Pre-Release 2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14%20Pre-Release%202",
+    "source": null
+  },
+  "1.14 Pre-Release 1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1-14-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.14%20Pre-Release%201",
+    "source": null
+  },
+  "19w14b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w14a0",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w14b",
+    "source": null
+  },
+  "19w14a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w14a0",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w14a",
+    "source": null
+  },
+  "3D Shareware v1.34": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-3d-rediscovered",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_3D_Shareware_v1.34",
+    "source": null
+  },
+  "19w13b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w13a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w13b",
+    "source": null
+  },
+  "19w13a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w13a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w13a",
+    "source": null
+  },
+  "19w12b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w12a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w12b",
+    "source": null
+  },
+  "19w12a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w12a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w12a",
+    "source": null
+  },
+  "19w11b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w11",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w11b",
+    "source": null
+  },
+  "19w11a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w11",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w11a",
+    "source": null
+  },
+  "19w09a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w09a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w09a",
+    "source": null
+  },
+  "19w08b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w08a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w08b",
+    "source": null
+  },
+  "19w08a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w08a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w08a",
+    "source": null
+  },
+  "19w07a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w07a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w07a",
+    "source": null
+  },
+  "19w06a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w06a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w06a",
+    "source": null
+  },
+  "19w05a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w05a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w05a",
+    "source": null
+  },
+  "19w04b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w04a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w04b",
+    "source": null
+  },
+  "19w04a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w04a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w04a",
+    "source": null
+  },
+  "19w03c": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w03a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w03c",
+    "source": null
+  },
+  "19w03b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w03a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w03b",
+    "source": null
+  },
+  "19w03a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w03a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w03a",
+    "source": null
+  },
+  "19w02a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-19w02a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_19w02a",
+    "source": null
+  },
+  "18w50a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w50a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w50a",
+    "source": null
+  },
+  "18w49a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w49a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w49a",
+    "source": null
+  },
+  "18w48b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w48b",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w48b",
+    "source": null
+  },
+  "18w48a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w48b",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w48a",
+    "source": null
+  },
+  "18w47b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w47a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w47b",
+    "source": null
+  },
+  "18w47a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w47a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w47a",
+    "source": null
+  },
+  "18w46a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w46a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w46a",
+    "source": null
+  },
+  "18w45a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w45a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w45a",
+    "source": null
+  },
+  "18w44a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w44a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w44a",
+    "source": null
+  },
+  "18w43c": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w43a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w43c",
+    "source": null
+  },
+  "18w43b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w43a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w43b",
+    "source": null
+  },
+  "18w43a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w43a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w43a",
+    "source": null
+  },
+  "1.13.2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1132",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13.2",
+    "source": null
+  },
+  "1.13.2-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1132",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13.2-pre2",
+    "source": null
+  },
+  "1.13.2-pre1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13.2-pre1",
+    "source": null
+  },
+  "1.13.1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1131-released",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13.1",
+    "source": null
+  },
+  "1.13.1-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w33a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13.1-pre2",
+    "source": null
+  },
+  "1.13.1-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w33a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13.1-pre1",
+    "source": null
+  },
+  "18w33a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w33a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w33a",
+    "source": null
+  },
+  "18w32a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w32a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w32a",
+    "source": null
+  },
+  "18w31a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w31a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w31a",
+    "source": null
+  },
+  "18w30b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w30a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w30b",
+    "source": null
+  },
+  "18w30a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w30a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w30a",
+    "source": null
+  },
+  "1.13": {
+    "article": "https://www.minecraft.net/en-us/article/update-aquatic-out-java",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13",
+    "source": null
+  },
+  "1.13-pre10": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-113-pre-release",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13-pre10",
+    "source": null
+  },
+  "1.13-pre9": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-113-pre-release",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13-pre9",
+    "source": null
+  },
+  "1.13-pre8": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-113-pre-release",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13-pre8",
+    "source": null
+  },
+  "1.13-pre7": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-113-pre-release",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13-pre7",
+    "source": null
+  },
+  "1.13-pre6": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-113-pre-release",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13-pre6",
+    "source": null
+  },
+  "1.13-pre5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-113-pre-release",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13-pre5",
+    "source": null
+  },
+  "1.13-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-113-pre-release",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13-pre4",
+    "source": null
+  },
+  "1.13-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-113-pre-release",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13-pre3",
+    "source": null
+  },
+  "1.13-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-113-pre-release",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13-pre2",
+    "source": null
+  },
+  "1.13-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-113-pre-release",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.13-pre1",
+    "source": null
+  },
+  "18w22c": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w22a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w22c",
+    "source": null
+  },
+  "18w22b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w22a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w22b",
+    "source": null
+  },
+  "18w22a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w22a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w22a",
+    "source": null
+  },
+  "18w21b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w21a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w21b",
+    "source": null
+  },
+  "18w21a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w21a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w21a",
+    "source": null
+  },
+  "18w20c": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w20b",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w20c",
+    "source": null
+  },
+  "18w20b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w20b",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w20b",
+    "source": null
+  },
+  "18w20a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w20b",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w20a",
+    "source": null
+  },
+  "18w19b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w19a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w19b",
+    "source": null
+  },
+  "18w19a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w19a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w19a",
+    "source": null
+  },
+  "18w16a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w16a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w16a",
+    "source": null
+  },
+  "18w15a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w15a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w15a",
+    "source": null
+  },
+  "18w14b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w14a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w14b",
+    "source": null
+  },
+  "18w14a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w14a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w14a",
+    "source": null
+  },
+  "18w11a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w11a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w11a",
+    "source": null
+  },
+  "18w10d": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w10a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w10d",
+    "source": null
+  },
+  "18w10c": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w10a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w10c",
+    "source": null
+  },
+  "18w10b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w10a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w10b",
+    "source": null
+  },
+  "18w10a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w10a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w10a",
+    "source": null
+  },
+  "18w09a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w09a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w09a",
+    "source": null
+  },
+  "18w08b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w08a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w08b",
+    "source": null
+  },
+  "18w08a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w08a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w08a",
+    "source": null
+  },
+  "18w07c": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w07a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w07c",
+    "source": null
+  },
+  "18w07b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w07a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w07b",
+    "source": null
+  },
+  "18w07a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w07a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w07a",
+    "source": null
+  },
+  "18w06a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w06a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w06a",
+    "source": null
+  },
+  "18w05a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w05a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w05a",
+    "source": null
+  },
+  "18w03b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w03a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w03b",
+    "source": null
+  },
+  "18w03a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w03a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w03a",
+    "source": null
+  },
+  "18w02a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w02a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w02a",
+    "source": null
+  },
+  "18w01a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-18w01a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_18w01a",
+    "source": null
+  },
+  "17w50a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w50a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w50a",
+    "source": null
+  },
+  "17w49b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w49a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w49b",
+    "source": null
+  },
+  "17w49a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w49a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w49a",
+    "source": null
+  },
+  "17w48a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w48a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w48a",
+    "source": null
+  },
+  "17w47b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w47a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w47b",
+    "source": null
+  },
+  "17w47a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w47a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w47a",
+    "source": null
+  },
+  "17w46a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w46a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w46a",
+    "source": null
+  },
+  "17w45b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w45a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w45b",
+    "source": null
+  },
+  "17w45a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w45a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w45a",
+    "source": null
+  },
+  "17w43b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w43a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w43b",
+    "source": null
+  },
+  "17w43a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w43a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w43a",
+    "source": null
+  },
+  "1.12.2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1122-released",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.12.2",
+    "source": null
+  },
+  "1.12.2-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1122-pre-release",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.12.2-pre2",
+    "source": null
+  },
+  "1.12.2-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-1122-pre-release",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.12.2-pre1",
+    "source": null
+  },
+  "1.12.1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1121-released",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.12.1",
+    "source": null
+  },
+  "1.12.1-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w31a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.12.1-pre1",
+    "source": null
+  },
+  "17w31a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w31a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w31a",
+    "source": null
+  },
+  "1.12": {
+    "article": "https://www.minecraft.net/en-us/article/world-color-released",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.12",
+    "source": null
+  },
+  "1.12-pre7": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-112-pre-release-6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.12-pre7",
+    "source": null
+  },
+  "1.12-pre6": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-112-pre-release-6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.12-pre6",
+    "source": null
+  },
+  "1.12-pre5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-112-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.12-pre5",
+    "source": null
+  },
+  "1.12-pre4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-112-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.12-pre4",
+    "source": null
+  },
+  "1.12-pre3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-112-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.12-pre3",
+    "source": null
+  },
+  "1.12-pre2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-112-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.12-pre2",
+    "source": null
+  },
+  "1.12-pre1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-112-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.12-pre1",
+    "source": null
+  },
+  "17w18b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w18a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w18b",
+    "source": null
+  },
+  "17w18a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w18a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w18a",
+    "source": null
+  },
+  "17w17b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w17a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w17b",
+    "source": null
+  },
+  "17w17a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w17a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w17a",
+    "source": null
+  },
+  "17w16b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w16b",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w16b",
+    "source": null
+  },
+  "17w16a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w16b",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w16a",
+    "source": null
+  },
+  "17w15a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w15a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w15a",
+    "source": null
+  },
+  "17w14a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w14a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w14a",
+    "source": null
+  },
+  "17w13b": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w13a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w13b",
+    "source": null
+  },
+  "17w13a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w13a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w13a",
+    "source": null
+  },
+  "17w06a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-snapshot-17w06a",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_17w06a",
+    "source": null
+  },
+  "1.11.2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1112-released",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.11.2",
+    "source": null
+  },
+  "1.11.1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1112-released",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.11.1",
+    "source": null
+  },
+  "16w50a": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-1112-released",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w50a",
+    "source": null
+  },
+  "1.11": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.11",
+    "source": null
+  },
+  "1.11-pre1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.11-pre1",
+    "source": null
+  },
+  "16w44a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w44a",
+    "source": null
+  },
+  "16w43a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w43a",
+    "source": null
+  },
+  "16w42a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w42a",
+    "source": null
+  },
+  "16w41a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w41a",
+    "source": null
+  },
+  "16w40a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w40a",
+    "source": null
+  },
+  "16w39c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w39c",
+    "source": null
+  },
+  "16w39b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w39b",
+    "source": null
+  },
+  "16w39a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w39a",
+    "source": null
+  },
+  "16w38a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w38a",
+    "source": null
+  },
+  "16w36a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w36a",
+    "source": null
+  },
+  "16w35a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w35a",
+    "source": null
+  },
+  "16w33a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w33a",
+    "source": null
+  },
+  "16w32b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w32b",
+    "source": null
+  },
+  "16w32a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w32a",
+    "source": null
+  },
+  "1.10.2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.10.2",
+    "source": null
+  },
+  "1.10.1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.10.1",
+    "source": null
+  },
+  "1.10": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.10",
+    "source": null
+  },
+  "1.10-pre2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.10-pre2",
+    "source": null
+  },
+  "1.10-pre1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.10-pre1",
+    "source": null
+  },
+  "16w21b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w21b",
+    "source": null
+  },
+  "16w21a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w21a",
+    "source": null
+  },
+  "16w20a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w20a",
+    "source": null
+  },
+  "1.9.4": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.9.4",
+    "source": null
+  },
+  "1.9.3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.9.3",
+    "source": null
+  },
+  "1.9.3-pre3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.9.3-pre3",
+    "source": null
+  },
+  "1.9.3-pre2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.9.3-pre2",
+    "source": null
+  },
+  "1.9.3-pre1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.9.3-pre1",
+    "source": null
+  },
+  "16w15b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w15b",
+    "source": null
+  },
+  "16w15a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w15a",
+    "source": null
+  },
+  "16w14a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w14a",
+    "source": null
+  },
+  "1.RV-Pre1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.RV-Pre1",
+    "source": null
+  },
+  "1.9.2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.9.2",
+    "source": null
+  },
+  "1.9.1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.9.1",
+    "source": null
+  },
+  "1.9.1-pre3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.9.1-pre3",
+    "source": null
+  },
+  "1.9.1-pre2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.9.1-pre2",
+    "source": null
+  },
+  "1.9.1-pre1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.9.1-pre1",
+    "source": null
+  },
+  "1.9": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.9",
+    "source": null
+  },
+  "1.9-pre4": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.9-pre4",
+    "source": null
+  },
+  "1.9-pre3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.9-pre3",
+    "source": null
+  },
+  "1.9-pre2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.9-pre2",
+    "source": null
+  },
+  "1.9-pre1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.9-pre1",
+    "source": null
+  },
+  "16w07b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w07b",
+    "source": null
+  },
+  "16w07a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w07a",
+    "source": null
+  },
+  "16w06a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w06a",
+    "source": null
+  },
+  "16w05b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w05b",
+    "source": null
+  },
+  "16w05a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w05a",
+    "source": null
+  },
+  "16w04a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w04a",
+    "source": null
+  },
+  "16w03a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w03a",
+    "source": null
+  },
+  "16w02a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_16w02a",
+    "source": null
+  },
+  "15w51b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w51b",
+    "source": null
+  },
+  "15w51a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w51a",
+    "source": null
+  },
+  "15w50a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w50a",
+    "source": null
+  },
+  "15w49b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w49b",
+    "source": null
+  },
+  "1.8.9": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.9",
+    "source": null
+  },
+  "15w49a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w49a",
+    "source": null
+  },
+  "15w47c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w47c",
+    "source": null
+  },
+  "15w47b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w47b",
+    "source": null
+  },
+  "15w47a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w47a",
+    "source": null
+  },
+  "15w46a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w46a",
+    "source": null
+  },
+  "15w45a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w45a",
+    "source": null
+  },
+  "15w44b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w44b",
+    "source": null
+  },
+  "15w44a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w44a",
+    "source": null
+  },
+  "15w43c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w43c",
+    "source": null
+  },
+  "15w43b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w43b",
+    "source": null
+  },
+  "15w43a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w43a",
+    "source": null
+  },
+  "15w42a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w42a",
+    "source": null
+  },
+  "15w41b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w41b",
+    "source": null
+  },
+  "15w41a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w41a",
+    "source": null
+  },
+  "15w40b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w40b",
+    "source": null
+  },
+  "15w40a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w40a",
+    "source": null
+  },
+  "15w39c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w39c",
+    "source": null
+  },
+  "15w39b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w39b",
+    "source": null
+  },
+  "15w39a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w39a",
+    "source": null
+  },
+  "15w38b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w38b",
+    "source": null
+  },
+  "15w38a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w38a",
+    "source": null
+  },
+  "15w37a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w37a",
+    "source": null
+  },
+  "15w36d": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w36d",
+    "source": null
+  },
+  "15w36c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w36c",
+    "source": null
+  },
+  "15w36b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w36b",
+    "source": null
+  },
+  "15w36a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w36a",
+    "source": null
+  },
+  "15w35e": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w35e",
+    "source": null
+  },
+  "15w35d": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w35d",
+    "source": null
+  },
+  "15w35c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w35c",
+    "source": null
+  },
+  "15w35b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w35b",
+    "source": null
+  },
+  "15w35a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w35a",
+    "source": null
+  },
+  "15w34d": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w34d",
+    "source": null
+  },
+  "15w34c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w34c",
+    "source": null
+  },
+  "15w34b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w34b",
+    "source": null
+  },
+  "15w34a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w34a",
+    "source": null
+  },
+  "15w33c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w33c",
+    "source": null
+  },
+  "15w33b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w33b",
+    "source": null
+  },
+  "15w33a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w33a",
+    "source": null
+  },
+  "15w32c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w32c",
+    "source": null
+  },
+  "15w32b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w32b",
+    "source": null
+  },
+  "15w32a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w32a",
+    "source": null
+  },
+  "15w31c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w31c",
+    "source": null
+  },
+  "15w31b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w31b",
+    "source": null
+  },
+  "15w31a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w31a",
+    "source": null
+  },
+  "1.8.8": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.8",
+    "source": null
+  },
+  "1.8.7": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.7",
+    "source": null
+  },
+  "1.8.6": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.6",
+    "source": null
+  },
+  "1.8.5": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.5",
+    "source": null
+  },
+  "1.8.4": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.4",
+    "source": null
+  },
+  "15w14a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_15w14a",
+    "source": null
+  },
+  "1.8.3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.3",
+    "source": null
+  },
+  "1.8.2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.2",
+    "source": null
+  },
+  "1.8.2-pre7": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.2-pre7",
+    "source": null
+  },
+  "1.8.2-pre6": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.2-pre6",
+    "source": null
+  },
+  "1.8.2-pre5": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.2-pre5",
+    "source": null
+  },
+  "1.8.2-pre4": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.2-pre4",
+    "source": null
+  },
+  "1.8.2-pre3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.2-pre3",
+    "source": null
+  },
+  "1.8.2-pre2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.2-pre2",
+    "source": null
+  },
+  "1.8.2-pre1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.2-pre1",
+    "source": null
+  },
+  "1.8.1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.1",
+    "source": null
+  },
+  "1.8.1-pre5": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.1-pre5",
+    "source": null
+  },
+  "1.8.1-pre4": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.1-pre4",
+    "source": null
+  },
+  "1.8.1-pre3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.1-pre3",
+    "source": null
+  },
+  "1.8.1-pre2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.1-pre2",
+    "source": null
+  },
+  "1.8.1-pre1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8.1-pre1",
+    "source": null
+  },
+  "1.8": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8",
+    "source": null
+  },
+  "1.8-pre3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8-pre3",
+    "source": null
+  },
+  "1.8-pre2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8-pre2",
+    "source": null
+  },
+  "1.8-pre1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.8-pre1",
+    "source": null
+  },
+  "14w34d": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w34d",
+    "source": null
+  },
+  "14w34c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w34c",
+    "source": null
+  },
+  "14w34b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w34b",
+    "source": null
+  },
+  "14w34a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w34a",
+    "source": null
+  },
+  "14w33c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w33c",
+    "source": null
+  },
+  "14w33b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w33b",
+    "source": null
+  },
+  "14w33a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w33a",
+    "source": null
+  },
+  "14w32d": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w32d",
+    "source": null
+  },
+  "14w32c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w32c",
+    "source": null
+  },
+  "14w32b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w32b",
+    "source": null
+  },
+  "14w32a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w32a",
+    "source": null
+  },
+  "14w31a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w31a",
+    "source": null
+  },
+  "14w30c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w30c",
+    "source": null
+  },
+  "14w30b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w30b",
+    "source": null
+  },
+  "14w30a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w30a",
+    "source": null
+  },
+  "14w29b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w29b",
+    "source": null
+  },
+  "14w29a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w29a",
+    "source": null
+  },
+  "14w28b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w28b",
+    "source": null
+  },
+  "14w28a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w28a",
+    "source": null
+  },
+  "14w27b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w27b",
+    "source": null
+  },
+  "14w27a": {
+    "article": "https://www.minecraft.net/en-us/article/who-framed-killer-rabbit",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w27a",
+    "source": null
+  },
+  "14w26c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w26c",
+    "source": null
+  },
+  "14w26b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w26b",
+    "source": null
+  },
+  "14w26a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w26a",
+    "source": null
+  },
+  "14w25b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w25b",
+    "source": null
+  },
+  "14w25a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w25a",
+    "source": null
+  },
+  "14w21b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w21b",
+    "source": null
+  },
+  "14w21a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w21a",
+    "source": null
+  },
+  "14w20b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w20b",
+    "source": null
+  },
+  "14w20a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w20a",
+    "source": null
+  },
+  "1.7.10": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.10",
+    "source": null
+  },
+  "1.7.10-pre4": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.10-pre4",
+    "source": null
+  },
+  "1.7.10-pre3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.10-pre3",
+    "source": null
+  },
+  "1.7.10-pre2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.10-pre2",
+    "source": null
+  },
+  "1.7.10-pre1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.10-pre1",
+    "source": null
+  },
+  "14w19a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w19a",
+    "source": null
+  },
+  "14w18b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w18b",
+    "source": null
+  },
+  "14w18a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w18a",
+    "source": null
+  },
+  "14w17a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w17a",
+    "source": null
+  },
+  "14w11b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w11b",
+    "source": null
+  },
+  "1.7.9": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.9",
+    "source": null
+  },
+  "1.7.8": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.8",
+    "source": null
+  },
+  "1.7.7": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.7",
+    "source": null
+  },
+  "1.7.6": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.6",
+    "source": null
+  },
+  "14w11a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w11a",
+    "source": null
+  },
+  "1.7.6-pre2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.6-pre2",
+    "source": null
+  },
+  "1.7.6-pre1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.6-pre1",
+    "source": null
+  },
+  "14w10c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w10c",
+    "source": null
+  },
+  "14w10b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w10b",
+    "source": null
+  },
+  "14w10a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w10a",
+    "source": null
+  },
+  "14w08a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w08a",
+    "source": null
+  },
+  "1.7.5": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.5",
+    "source": null
+  },
+  "14w07a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w07a",
+    "source": null
+  },
+  "14w06b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w06b",
+    "source": null
+  },
+  "14w06a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w06a",
+    "source": null
+  },
+  "14w05b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w05b",
+    "source": null
+  },
+  "14w05a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w05a",
+    "source": null
+  },
+  "14w04b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w04b",
+    "source": null
+  },
+  "14w04a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w04a",
+    "source": null
+  },
+  "14w03b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w03b",
+    "source": null
+  },
+  "14w03a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w03a",
+    "source": null
+  },
+  "14w02c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w02c",
+    "source": null
+  },
+  "14w02b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w02b",
+    "source": null
+  },
+  "14w02a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_14w02a",
+    "source": null
+  },
+  "1.7.4": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.4",
+    "source": null
+  },
+  "1.7.3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.3",
+    "source": null
+  },
+  "13w49a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w49a",
+    "source": null
+  },
+  "13w48b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w48b",
+    "source": null
+  },
+  "13w48a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w48a",
+    "source": null
+  },
+  "13w47e": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w47e",
+    "source": null
+  },
+  "13w47d": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w47d",
+    "source": null
+  },
+  "13w47c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w47c",
+    "source": null
+  },
+  "13w47b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w47b",
+    "source": null
+  },
+  "13w47a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w47a",
+    "source": null
+  },
+  "1.7.2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.2",
+    "source": null
+  },
+  "1.7.1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7.1",
+    "source": null
+  },
+  "1.7": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.7",
+    "source": null
+  },
+  "13w43a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w43a",
+    "source": null
+  },
+  "13w42b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w42b",
+    "source": null
+  },
+  "13w42a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w42a",
+    "source": null
+  },
+  "13w41b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w41b",
+    "source": null
+  },
+  "13w41a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w41a",
+    "source": null
+  },
+  "13w39b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w39b",
+    "source": null
+  },
+  "13w39a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w39a",
+    "source": null
+  },
+  "13w38c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w38c",
+    "source": null
+  },
+  "13w38b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w38b",
+    "source": null
+  },
+  "13w38a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w38a",
+    "source": null
+  },
+  "1.6.4": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.6.4",
+    "source": null
+  },
+  "1.6.3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.6.3",
+    "source": null
+  },
+  "13w37b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w37b",
+    "source": null
+  },
+  "13w37a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w37a",
+    "source": null
+  },
+  "13w36b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w36b",
+    "source": null
+  },
+  "13w36a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w36a",
+    "source": null
+  },
+  "1.6.2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.6.2",
+    "source": null
+  },
+  "1.6.1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.6.1",
+    "source": null
+  },
+  "1.6": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.6",
+    "source": null
+  },
+  "13w26a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w26a",
+    "source": null
+  },
+  "13w25c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w25c",
+    "source": null
+  },
+  "13w25b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w25b",
+    "source": null
+  },
+  "13w25a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w25a",
+    "source": null
+  },
+  "13w24b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w24b",
+    "source": null
+  },
+  "13w24a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w24a",
+    "source": null
+  },
+  "13w23b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w23b",
+    "source": null
+  },
+  "13w23a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w23a",
+    "source": null
+  },
+  "13w22a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w22a",
+    "source": null
+  },
+  "13w21b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w21b",
+    "source": null
+  },
+  "13w21a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w21a",
+    "source": null
+  },
+  "13w19a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w19a",
+    "source": null
+  },
+  "13w18c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w18c",
+    "source": null
+  },
+  "13w18b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w18b",
+    "source": null
+  },
+  "13w18a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w18a",
+    "source": null
+  },
+  "13w17a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w17a",
+    "source": null
+  },
+  "1.5.2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.5.2",
+    "source": null
+  },
+  "13w16b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w16b",
+    "source": null
+  },
+  "13w16a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_13w16a",
+    "source": null
+  },
+  "1.5.1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.5.1",
+    "source": null
+  },
+  "1.5": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.5",
+    "source": null
+  },
+  "1.4.7": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.4.7",
+    "source": null
+  },
+  "1.4.5": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.4.5",
+    "source": null
+  },
+  "1.4.6": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.4.6",
+    "source": null
+  },
+  "1.4.4": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.4.4",
+    "source": null
+  },
+  "1.4.3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.4.3",
+    "source": null
+  },
+  "1.4.2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.4.2",
+    "source": null
+  },
+  "1.4.1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.4.1",
+    "source": null
+  },
+  "1.4": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.4",
+    "source": null
+  },
+  "1.3.2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.3.2",
+    "source": null
+  },
+  "1.3.1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.3.1",
+    "source": null
+  },
+  "1.3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.3",
+    "source": null
+  },
+  "1.2.5": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.2.5",
+    "source": null
+  },
+  "1.2.4": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.2.4",
+    "source": null
+  },
+  "1.2.3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.2.3",
+    "source": null
+  },
+  "1.2.2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.2.2",
+    "source": null
+  },
+  "1.2.1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.2.1",
+    "source": null
+  },
+  "1.1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.1",
+    "source": null
+  },
+  "1.0": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_1.0",
+    "source": null
+  },
+  "b1.8.1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.8.1",
+    "source": null
+  },
+  "b1.8": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_b1.8",
+    "source": null
+  },
+  "b1.7.3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_b1.7.3",
+    "source": null
+  },
+  "b1.7.2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.7.2",
+    "source": null
+  },
+  "b1.7": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_b1.7",
+    "source": null
+  },
+  "b1.6.6": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.6.6",
+    "source": null
+  },
+  "b1.6.5": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.6.5",
+    "source": null
+  },
+  "b1.6.4": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.6.4",
+    "source": null
+  },
+  "b1.6.3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.6.3",
+    "source": null
+  },
+  "b1.6.2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.6.2",
+    "source": null
+  },
+  "b1.6.1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.6.1",
+    "source": null
+  },
+  "b1.6": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.6",
+    "source": null
+  },
+  "b1.5_01": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.5_01",
+    "source": null
+  },
+  "b1.5": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.5",
+    "source": null
+  },
+  "b1.4_01": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_b1.4_01",
+    "source": null
+  },
+  "b1.4": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.4",
+    "source": null
+  },
+  "b1.3_01": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.3_01",
+    "source": null
+  },
+  "b1.3b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.3b",
+    "source": null
+  },
+  "b1.2_02": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.2_02",
+    "source": null
+  },
+  "b1.2_01": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.2_01",
+    "source": null
+  },
+  "b1.2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.2",
+    "source": null
+  },
+  "b1.1_02": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.1_02",
+    "source": null
+  },
+  "b1.1_01": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.1_01",
+    "source": null
+  },
+  "b1.0.2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.0.2",
+    "source": null
+  },
+  "b1.0_01": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.0_01",
+    "source": null
+  },
+  "b1.0": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Beta_1.0",
+    "source": null
+  },
+  "a1.2.6": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.2.6",
+    "source": null
+  },
+  "a1.2.5": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.2.5",
+    "source": null
+  },
+  "a1.2.4_01": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.2.4_01",
+    "source": null
+  },
+  "a1.2.3_04": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.2.3_04",
+    "source": null
+  },
+  "a1.2.3_02": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.2.3_02",
+    "source": null
+  },
+  "a1.2.3_01": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.2.3_01",
+    "source": null
+  },
+  "a1.2.3": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.2.3",
+    "source": null
+  },
+  "a1.2.2b": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.2.2b",
+    "source": null
+  },
+  "a1.2.2a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.2.2a",
+    "source": null
+  },
+  "a1.2.1_01": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.2.1_01",
+    "source": null
+  },
+  "a1.2.1": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.2.1",
+    "source": null
+  },
+  "a1.2.0_02": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.2.0_02",
+    "source": null
+  },
+  "a1.2.0_01": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.2.0_01",
+    "source": null
+  },
+  "a1.2.0": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.2.0",
+    "source": null
+  },
+  "a1.1.2_01": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.1.2_01",
+    "source": null
+  },
+  "a1.1.2": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.1.2",
+    "source": null
+  },
+  "a1.1.0": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.1.0",
+    "source": null
+  },
+  "a1.0.17_04": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.0.17_04",
+    "source": null
+  },
+  "a1.0.17_02": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.0.17_02",
+    "source": null
+  },
+  "a1.0.16": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.0.16",
+    "source": null
+  },
+  "a1.0.15": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.0.15",
+    "source": null
+  },
+  "a1.0.14": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.0.14",
+    "source": null
+  },
+  "a1.0.11": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.0.11",
+    "source": null
+  },
+  "a1.0.5_01": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.0.5_01",
+    "source": null
+  },
+  "a1.0.4": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Alpha_1.0.4",
+    "source": null
+  },
+  "inf-20100618": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Infdev_20100618",
+    "source": null
+  },
+  "c0.30_01c": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Classic_0.30_01c",
+    "source": null
+  },
+  "c0.0.13a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Classic_0.0.13a",
+    "source": null
+  },
+  "c0.0.13a_03": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Classic_0.0.13a_03",
+    "source": null
+  },
+  "c0.0.11a": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_Classic_0.0.11a",
+    "source": null
+  },
+  "rd-161348": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_pre-Classic_rd-161348",
+    "source": null
+  },
+  "rd-160052": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_pre-Classic_rd-160052",
+    "source": null
+  },
+  "rd-20090515": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_pre-Classic_rd-20090515",
+    "source": null
+  },
+  "rd-132328": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_pre-Classic_rd-132328",
+    "source": null
+  },
+  "rd-132211": {
+    "article": null,
+    "wiki": "https://minecraft.wiki/w/Java_Edition_pre-Classic_rd-132211",
+    "source": null
+  }
+}
