@@ -1,5 +1,6 @@
 import {
   ActionRowBuilder,
+  type BaseMessageOptions,
   ButtonBuilder,
   ButtonStyle,
   ContainerBuilder,
@@ -8,11 +9,14 @@ import {
   TextDisplayBuilder
 } from 'discord.js';
 import { FormatSize } from '../../../Utils/MathUtils.js';
-import type { MinecraftVersionLinks } from '../../../Types/Minecraft.js';
+import type { MinecraftArticleDataResponse } from '../../../Types/Minecraft.js';
 import type { VersionWithDownload } from '../../../Mongo/Version/Schema.js';
 
 // eslint-disable-next-line import/prefer-default-export
-export function MinecraftVersion(version: VersionWithDownload, articleData: MinecraftVersionLinks | null) {
+export function MinecraftVersion(
+  version: VersionWithDownload,
+  articleData: MinecraftArticleDataResponse
+): NonNullable<BaseMessageOptions['components']> {
   const releaseTime = Math.floor(new Date(version.releaseTime).getTime() / 1000);
 
   const container = new ContainerBuilder()
@@ -27,8 +31,8 @@ export function MinecraftVersion(version: VersionWithDownload, articleData: Mine
           new ButtonBuilder()
             .setStyle(ButtonStyle.Link)
             .setLabel('Article')
-            .setURL(articleData?.article ?? 'https://kathund.dev')
-            .setDisabled(articleData?.article === null)
+            .setURL(articleData.data?.article ?? 'https://kathund.dev')
+            .setDisabled(articleData.data?.article === null || articleData.data?.article === undefined)
         )
     )
     .addTextDisplayComponents(new TextDisplayBuilder().setContent('## Downloads'))
@@ -59,6 +63,13 @@ export function MinecraftVersion(version: VersionWithDownload, articleData: Mine
   }
 
   return [
+    ...(articleData.generated
+      ? [
+          new TextDisplayBuilder().setContent(
+            "⚠️ **Warning!** The **Article**, **Source** and **Wiki** URLs have been generated as they aren't confirmed yet. Please report any mistakes"
+          )
+        ]
+      : []),
     container,
     new ActionRowBuilder<MessageActionRowComponentBuilder>().addComponents(
       new ButtonBuilder()
@@ -69,8 +80,8 @@ export function MinecraftVersion(version: VersionWithDownload, articleData: Mine
       new ButtonBuilder()
         .setStyle(ButtonStyle.Link)
         .setLabel('Wiki')
-        .setURL(articleData?.wiki ?? 'https://kathund.dev')
-        .setDisabled(articleData === null)
+        .setURL(articleData.data?.wiki ?? 'https://kathund.dev')
+        .setDisabled(articleData.data === null)
     )
   ];
 }

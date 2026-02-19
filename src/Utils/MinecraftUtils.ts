@@ -1,6 +1,6 @@
 import type Application from '../Application.js';
 import type { FetchedVersion, Version, VersionWithDownload } from '../Mongo/Version/Schema.js';
-import type { MinecraftVersionLinks } from '../Types/Minecraft.js';
+import type { MinecraftArticleData, MinecraftArticleDataResponse } from '../Types/Minecraft.js';
 
 class MinecraftUtils {
   private Application: Application;
@@ -8,12 +8,59 @@ class MinecraftUtils {
     this.Application = application;
   }
 
-  async getMinecraftArticleData(version: Version): Promise<MinecraftVersionLinks | null> {
+  async getMinecraftArticleData(version: Version): Promise<MinecraftArticleDataResponse> {
     const res = await this.Application.requestHandler.request(
       'https://gist.githubusercontent.com/Kathund/61625ab094cba15d0519f2ac83b4ca86/raw/MinecraftVersionMap.json'
     );
-    const json: Record<string, MinecraftVersionLinks> = await res.data;
-    return json[version.id] ?? null;
+    const json: Record<string, MinecraftArticleData> = await res.data;
+    let data: MinecraftArticleData | undefined = json[version.id] ?? undefined;
+
+    if (data !== undefined) return { data, generated: false };
+
+    data = {
+      article: this.generateMinecraftArticleURL(version),
+      wiki: `https://minecraft.wiki/w/Java_Edition_${version.id.replaceAll('a1.', 'Alpha_1.').replaceAll('b1.', 'Beta_1.')}`
+    };
+    return { data, generated: true };
+  }
+
+  private generateMinecraftArticleURL(version: Version): string | null {
+    const releaseTime = Math.floor(new Date(version.releaseTime).getTime() / 1000);
+    const formattedId = version.id.replaceAll('.', '-');
+    const basePath = 'https://www.minecraft.net/en-us/article/minecraft-';
+
+    switch (version.type) {
+      case 'release': {
+        // 1695200577 - 1.20.2
+        if (releaseTime <= 1695200577) return null;
+        return `${basePath}java-edition-${formattedId}`;
+      }
+      case 'snapshot': {
+        // 1481812732 - 16w50a
+        if (releaseTime <= 1481812732) return null;
+        let path: string = '';
+
+        // 1765888949 - 26.1-snapshot-1
+        if (releaseTime >= 1765888949) {
+          path = formattedId;
+        } else if (releaseTime >= 1481812732) {
+          // 1481812732 - 16w50a
+          path = `snapshot-${formattedId}`;
+        }
+
+        if (version.id.includes('-rc')) {
+          path = formattedId.replaceAll('-rc', '-release-candidate-');
+        } else if (version.id.includes('-pre')) {
+          path = formattedId.replaceAll('-pre', '-pre-release-');
+        }
+
+        if (!path) return null;
+        return `${basePath}${path}`;
+      }
+      default: {
+        return null;
+      }
+    }
   }
 
   async convertVersion(version: Version): Promise<VersionWithDownload> {
