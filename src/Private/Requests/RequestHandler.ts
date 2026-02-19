@@ -9,7 +9,10 @@ class RequestHandler {
     this.Application = app;
   }
 
-  async request(url: string, options?: RequestOptions): Promise<RequestData> {
+  async request<T = any>(url: string, options?: RequestOptions & { parse?: true }): Promise<RequestData<T>>;
+  async request(url: string, options: RequestOptions & { parse: false }): Promise<RequestData<Uint8Array>>;
+
+  async request<T = any>(url: string, options?: RequestOptions): Promise<RequestData<T>> {
     options = {
       headers: options?.headers ?? {},
       method: options?.method ?? 'GET',
@@ -19,7 +22,7 @@ class RequestHandler {
     };
     if (options.method === 'GET' && this.Application.cacheHandler.has(url)) {
       const data = this.Application.cacheHandler.get(url);
-      return new RequestData(data.data, data.headers, {
+      return new RequestData<T>(data.data, data.headers, {
         status: 200,
         options,
         url,
@@ -30,13 +33,16 @@ class RequestHandler {
     const res = await fetch(url, { method: options.method, headers: options.headers });
     if (res.status === 401) throw new MinecraftVersionTrackerError('Something is Unauthorized');
     if (res.status === 403) throw new MinecraftVersionTrackerError('Something is rate-limited please try again later');
-    const requestData = new RequestData({}, res.headers, { status: res.status, options, url, cached: false });
-    if (options.parse) {
-      const parsedRes = (await res.json()) as Record<string, any>;
-      requestData.setData(parsedRes);
-      if (options.noCache) return requestData;
-      if (options.raw !== false) this.Application.cacheHandler.set(url, requestData);
-    }
+    let responseData: any;
+    if (options.parse) responseData = await res.json();
+    else responseData = new Uint8Array(await res.arrayBuffer());
+    const requestData = new RequestData<T>(responseData as T, res.headers, {
+      status: res.status,
+      options,
+      url,
+      cached: false
+    });
+    if (!options.noCache && options.raw !== false) this.Application.cacheHandler.set(url, requestData);
     return requestData;
   }
 }

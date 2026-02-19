@@ -51,3 +51,15 @@ export const VersionWithDownload = new Schema({
   server: { type: VersionDownload }
 });
 export type VersionWithDownload = InferSchemaType<typeof VersionWithDownload>;
+
+export const FetchedVersionsLatest = new Schema({
+  release: { type: String, required: true },
+  snapshot: { type: String, required: true }
+});
+export type FetchedVersionsLatest = InferSchemaType<typeof FetchedVersionsLatest>;
+
+export const FetchedVersions = new Schema({
+  latest: { type: FetchedVersionsLatest, required: true },
+  versions: { type: [Version], required: true }
+});
+export type FetchedVersions = InferSchemaType<typeof FetchedVersions>;

@@ -1,12 +1,7 @@
 import Script from '../Private/Script.js';
 import { MessageFlags } from 'discord.js';
 import { MinecraftVersion, NewMinecraftVersion } from '../../Discord/Private/Templates/Components.js';
-import {
-  type Version,
-  type VersionType,
-  VersionTypeKeys,
-  type VersionWithDownload
-} from '../../Mongo/Version/Schema.js';
+import { type VersionType, VersionTypeKeys, type VersionWithDownload } from '../../Mongo/Version/Schema.js';
 import type { Server } from '../../Mongo/Server/Schema.js';
 
 class CheckForNewVersions extends Script {
@@ -60,12 +55,8 @@ class CheckForNewVersions extends Script {
     console.other('Checking for new versions');
     const serversDB = await this.scriptManager.Application.mongo.server.getItems();
     if (!serversDB.success || !serversDB.data?.length) return;
-    const res = await this.scriptManager.Application.requestHandler.request(
-      'https://piston-meta.mojang.com/mc/game/version_manifest_v2.json',
-      { noCache: true }
-    );
-    const versions: Version[] = res.data.versions;
 
+    const versions = await this.scriptManager.Application.minecraftUtils.getVersions();
     const versionsDB = await this.scriptManager.Application.mongo.version.getItems();
     const knownIds = new Set(versionsDB.data?.map((v) => v.id));
     const serversByType = this.getServersByType(serversDB.data);

@@ -1,11 +1,19 @@
 import type Application from '../Application.js';
-import type { FetchedVersion, Version, VersionWithDownload } from '../Mongo/Version/Schema.js';
+import type { FetchedVersion, FetchedVersions, Version, VersionWithDownload } from '../Mongo/Version/Schema.js';
 import type { MinecraftArticleData, MinecraftArticleDataResponse } from '../Types/Minecraft.js';
 
 class MinecraftUtils {
   private Application: Application;
   constructor(application: Application) {
     this.Application = application;
+  }
+
+  async getVersions(): Promise<Version[]> {
+    const res = await this.Application.requestHandler.request<FetchedVersions>(
+      'https://piston-meta.mojang.com/mc/game/version_manifest_v2.json',
+      { noCache: true }
+    );
+    return res.data.versions;
   }
 
   async getMinecraftArticleData(version: Version): Promise<MinecraftArticleDataResponse> {

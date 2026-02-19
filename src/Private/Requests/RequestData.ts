@@ -1,8 +1,8 @@
 import type { RequestOptions } from '../../Types/Requests.js';
 
-class RequestData {
-  data: any;
-  readonly headers: Record<string, any>;
+class RequestData<T = any> {
+  data: T;
+  readonly headers: Headers;
   readonly statusCode: number;
   readonly options: RequestOptions;
   readonly requestTimestamp: number;
@@ -10,8 +10,8 @@ class RequestData {
   readonly requestUrl: string;
   readonly cached: boolean;
   constructor(
-    data: Record<string, any>,
-    headers: Record<string, any>,
+    data: T,
+    headers: Headers,
     info: { status: number; url: string; options: RequestOptions; cached: boolean; timestamp?: number }
   ) {
     this.data = data;
@@ -24,7 +24,7 @@ class RequestData {
     this.cached = info.cached;
   }
 
-  setData(data: Record<string, any>): this {
+  setData(data: T): this {
     this.data = data;
     return this;
   }
