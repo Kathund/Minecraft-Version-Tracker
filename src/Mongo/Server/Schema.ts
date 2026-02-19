@@ -2,13 +2,13 @@
 import { type InferSchemaType, Schema } from 'mongoose';
 
 export const Channel = new Schema({
-  channel: { type: String, required: true },
+  channel: { type: String, required: true, index: true },
   role: { type: String }
 });
 export type Channel = InferSchemaType<typeof Channel>;
 
 export const Server = new Schema({
-  id: { type: String, required: true },
+  id: { type: String, required: true, index: true, unique: true },
   release: { type: Channel },
   snapshot: { type: Channel },
   old_beta: { type: Channel },

@@ -2,7 +2,7 @@
 import { type InferSchemaType, Schema } from 'mongoose';
 
 export const VersionDownload = new Schema({
-  sha1: { type: String, required: true },
+  sha1: { type: String, required: true, index: true, unique: true },
   size: { type: Number, required: true },
   url: { type: String, required: true }
 });
@@ -21,12 +21,12 @@ export const FetchedVersion = new Schema({
 export type FetchedVersion = InferSchemaType<typeof FetchedVersion>;
 
 export const Version = new Schema({
-  id: { type: String, required: true },
+  id: { type: String, required: true, index: true, unique: true },
   type: { type: String, enum: ['release', 'snapshot', 'old_beta', 'old_alpha'], required: true },
-  url: { type: String, required: true },
+  url: { type: String, required: true, index: true, unique: true },
   time: { type: String, required: true },
   releaseTime: { type: String, required: true },
-  sha1: { type: String, required: true },
+  sha1: { type: String, required: true, index: true, unique: true },
   complianceLevel: { type: Number, required: true }
 });
 export const VersionTypeKeys = ['release', 'snapshot', 'old_beta', 'old_alpha'] as const;
@@ -40,12 +40,12 @@ export const VersionTypeLabels = {
 export type Version = InferSchemaType<typeof Version>;
 
 export const VersionWithDownload = new Schema({
-  id: { type: String, required: true },
+  id: { type: String, required: true, index: true, unique: true },
   type: { type: String, enum: ['release', 'snapshot', 'old_beta', 'old_alpha'], required: true },
-  url: { type: String, required: true },
+  url: { type: String, required: true, index: true, unique: true },
   time: { type: String, required: true },
   releaseTime: { type: String, required: true },
-  sha1: { type: String, required: true },
+  sha1: { type: String, required: true, index: true, unique: true },
   complianceLevel: { type: Number, required: true },
   client: { type: VersionDownload, required: true },
   server: { type: VersionDownload }
