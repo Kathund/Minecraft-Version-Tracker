@@ -62,9 +62,9 @@ class MinecraftUtils {
         }
 
         if (version.id.includes('-rc')) {
-          path = formattedId.replaceAll('-rc', '-release-candidate-');
+          path = formattedId.replaceAll('-rc', '-release-candidate');
         } else if (version.id.includes('-pre')) {
-          path = formattedId.replaceAll('-pre', '-pre-release-');
+          path = formattedId.replaceAll('-pre', '-pre-release');
         }
 
         if (!path) return null;
