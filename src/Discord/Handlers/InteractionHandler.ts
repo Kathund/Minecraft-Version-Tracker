@@ -10,7 +10,6 @@ class InteractionHandler {
   onInteraction(interaction: BaseInteraction) {
     if (interaction.isChatInputCommand()) this.discord.commandHandler.onCommand(interaction);
     if (interaction.isAutocomplete()) this.discord.commandHandler.onAutoComplete(interaction);
-    if (interaction.isButton()) this.discord.buttonHandler.onButton(interaction);
   }
 }
 

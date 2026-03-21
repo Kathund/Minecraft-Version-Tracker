@@ -2,7 +2,6 @@ import MinecraftVersionTrackerError from '../../Private/Error.js';
 import {
   type ApplicationCommandOptionChoiceData,
   AutocompleteInteraction,
-  ButtonInteraction,
   ChatInputCommandInteraction,
   MessageFlags,
   type SendableChannels,
@@ -71,7 +70,7 @@ class DiscordUtils {
 
   async handleError(
     error: Error | MinecraftVersionTrackerError,
-    interaction: ChatInputCommandInteraction | ButtonInteraction | AutocompleteInteraction | null = null
+    interaction: ChatInputCommandInteraction | AutocompleteInteraction | null = null
   ): Promise<void> {
     console.error(error);
     await this.logError(error);

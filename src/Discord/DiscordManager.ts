@@ -1,4 +1,3 @@
-import ButtonHandler from './Handlers/ButtonHandler.js';
 import CommandHandler from './Handlers/CommandHandler.js';
 import DiscordUtils from './Private/DiscordUtils.js';
 import InteractionHandler from './Handlers/InteractionHandler.js';
@@ -11,7 +10,6 @@ class DiscordManager {
   readonly interactionHandler: InteractionHandler;
   readonly stateHandler: StateHandler;
   readonly commandHandler: CommandHandler;
-  readonly buttonHandler: ButtonHandler;
   readonly utils: DiscordUtils;
   client?: Client;
   constructor(app: Application) {
@@ -19,7 +17,6 @@ class DiscordManager {
     this.interactionHandler = new InteractionHandler(this);
     this.stateHandler = new StateHandler(this);
     this.commandHandler = new CommandHandler(this);
-    this.buttonHandler = new ButtonHandler(this);
     this.utils = new DiscordUtils(this);
   }
 
