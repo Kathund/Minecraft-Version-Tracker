@@ -1,4 +1,9 @@
 {
+  "26.1-rc-2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-release-candidate-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Release_Candidate_2",
+    "source": "https://mcsrc.dev/1/26.1-rc-2/net/minecraft/client/main/Main"
+  },
   "26.1-rc-1": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-release-candidate-1",
     "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-rc-1",
