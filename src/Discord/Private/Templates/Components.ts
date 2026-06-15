@@ -18,7 +18,7 @@ export function NewMinecraftVersion(version: Version, role: string): TextDisplay
 
 export function MinecraftVersionMissingArticleData(): TextDisplayBuilder {
   return new TextDisplayBuilder().setContent(
-    "⚠️ **Warning!** The **Article**, **Source** and **Wiki** URLs have been generated as they aren't confirmed yet. Please report any mistakes"
+    "-# ⚠️ **Warning!** The **Article**, **Source** and **Wiki** URLs have been generated as they aren't confirmed yet. Please report any mistakes"
   );
 }
 
