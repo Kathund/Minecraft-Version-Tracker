@@ -1,4 +1,119 @@
 {
+  "26.2-rc-2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-release-candidate-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2_Release_Candidate_2",
+    "source": "https://mcsrc.dev/1/26.2-rc-2/net/minecraft/client/main/Main"
+  },
+  "26.2-rc-1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2-rc-1",
+    "source": "https://mcsrc.dev/1/26.2-rc-1/net/minecraft/client/main/Main"
+  },
+  "26.2-pre-6": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-pre-release-6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2_Pre-Release_6",
+    "source": "https://mcsrc.dev/1/26.2-pre-6/net/minecraft/client/main/Main"
+  },
+  "26.2-pre-5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-pre-release-5",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2_Pre-Release_5",
+    "source": "https://mcsrc.dev/1/26.2-pre-5/net/minecraft/client/main/Main"
+  },
+  "26.2-pre-4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-pre-release-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2_Pre-Release_4",
+    "source": "https://mcsrc.dev/1/26.2-pre-4/net/minecraft/client/main/Main"
+  },
+  "26.2-pre-3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-pre-release-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2_Pre-Release_3",
+    "source": "https://mcsrc.dev/1/26.2-pre-3/net/minecraft/client/main/Main"
+  },
+  "26.2-pre-2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-pre-release-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2_Pre-Release_2",
+    "source": "https://mcsrc.dev/1/26.2-pre-2/net/minecraft/client/main/Main"
+  },
+  "26.2-pre-1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-pre-release-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2_Pre-Release_1",
+    "source": "https://mcsrc.dev/1/26.2-pre-1/net/minecraft/client/main/Main"
+  },
+  "26.2-snapshot-8": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-snapshot-8",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2_Snapshot_8",
+    "source": "https://mcsrc.dev/1/26.2-snapshot-8/net/minecraft/client/main/Main"
+  },
+  "26.2-snapshot-7": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-snapshot-7",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2_Snapshot_7",
+    "source": "https://mcsrc.dev/1/26.2-snapshot-7/net/minecraft/client/main/Main"
+  },
+  "26.2-snapshot-6": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-snapshot-6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2_Snapshot_6",
+    "source": "https://mcsrc.dev/1/26.2-snapshot-6/net/minecraft/client/main/Main"
+  },
+  "26.2-snapshot-5": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-snapshot-5",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2_Snapshot_5",
+    "source": "https://mcsrc.dev/1/26.2-snapshot-5/net/minecraft/client/main/Main"
+  },
+  "26.2-snapshot-4": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-snapshot-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2_Snapshot_4",
+    "source": "https://mcsrc.dev/1/26.2-snapshot-4/net/minecraft/client/main/Main"
+  },
+  "26.2-snapshot-3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-snapshot-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2_Snapshot_3",
+    "source": "https://mcsrc.dev/1/26.2-snapshot-3/net/minecraft/client/main/Main"
+  },
+  "26.2-snapshot-2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-snapshot-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2_Snapshot_2",
+    "source": "https://mcsrc.dev/1/26.2-snapshot-2/net/minecraft/client/main/Main"
+  },
+  "26.1.2": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-1-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1.2",
+    "source": "https://mcsrc.dev/1/26.1.2/net/minecraft/client/main/Main"
+  },
+  "26.1.2-rc-1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-2-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1.2_Release_Candidate_1",
+    "source": "https://mcsrc.dev/1/26.1.2-rc-1/net/minecraft/client/main/Main"
+  },
+  "26.2-snapshot-1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-2-snapshot-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.2_Snapshot_1",
+    "source": "https://mcsrc.dev/1/26.2-snapshot-1/net/minecraft/client/main/Main"
+  },
+  "26w14a": {
+    "article": "https://www.minecraft.net/en-us/article/the-herdcraft-update",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26w14a",
+    "source": "https://mcsrc.dev/1/26w14a/net/minecraft/client/main/Main"
+  },
+  "26.1.1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-1-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1.1",
+    "source": "https://mcsrc.dev/1/26.1.1/net/minecraft/client/main/Main"
+  },
+  "26.1.1-rc-1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-1-release-candidate-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1.1_Release_Candidate_1",
+    "source": "https://mcsrc.dev/1/26.1.1-rc-1/net/minecraft/client/main/Main"
+  },
+  "26.1": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1",
+    "source": "https://mcsrc.dev/1/26.1/net/minecraft/client/main/Main"
+  },
+  "26.1-rc-3": {
+    "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-release-candidate-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Release_Candidate_3",
+    "source": "https://mcsrc.dev/1/26.1-rc-3/net/minecraft/client/main/Main"
+  },
   "26.1-rc-2": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-release-candidate-2",
     "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Release_Candidate_2",
@@ -11,72 +126,72 @@
   },
   "26.1-pre-3": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-pre-release-3",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-pre-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Pre-Release_3",
     "source": "https://mcsrc.dev/1/26.1-pre-3/net/minecraft/client/main/Main"
   },
   "26.1-pre-2": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-pre-release-2",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-pre-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Pre-Release_2",
     "source": "https://mcsrc.dev/1/26.1-pre-2/net/minecraft/client/main/Main"
   },
   "26.1-pre-1": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-pre-release-1",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-pre-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Pre-Release_1",
     "source": "https://mcsrc.dev/1/26.1-pre-1/net/minecraft/client/main/Main"
   },
   "26.1-snapshot-11": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-11",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-11",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Snapshot_11",
     "source": "https://mcsrc.dev/1/26.1-snapshot-11/net/minecraft/client/main/Main"
   },
   "26.1-snapshot-10": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-10",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-10",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Snapshot_10",
     "source": "https://mcsrc.dev/1/26.1-snapshot-10/net/minecraft/client/main/Main"
   },
   "26.1-snapshot-9": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-9",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-9",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Snapshot_9",
     "source": "https://mcsrc.dev/1/26.1-snapshot-9/net/minecraft/client/main/Main"
   },
   "26.1-snapshot-8": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-8",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-8",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Snapshot_8",
     "source": "https://mcsrc.dev/1/26.1-snapshot-8/net/minecraft/client/main/Main"
   },
   "26.1-snapshot-7": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-7",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-7",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Snapshot_7",
     "source": "https://mcsrc.dev/1/26.1-snapshot-7/net/minecraft/client/main/Main"
   },
   "26.1-snapshot-6": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-6",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-6",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Snapshot_6",
     "source": "https://mcsrc.dev/1/26.1-snapshot-6/net/minecraft/client/main/Main"
   },
   "26.1-snapshot-5": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-5",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-5",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Snapshot_5",
     "source": "https://mcsrc.dev/1/26.1-snapshot-5/net/minecraft/client/main/Main"
   },
   "26.1-snapshot-4": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-4",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-4",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Snapshot_4",
     "source": "https://mcsrc.dev/1/26.1-snapshot-4/net/minecraft/client/main/Main"
   },
   "26.1-snapshot-3": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-3",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-3",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Snapshot_3",
     "source": "https://mcsrc.dev/1/26.1-snapshot-3/net/minecraft/client/main/Main"
   },
   "26.1-snapshot-2": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-2",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-2",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Snapshot_2",
     "source": "https://mcsrc.dev/1/26.1-snapshot-2/net/minecraft/client/main/Main"
   },
   "26.1-snapshot-1": {
     "article": "https://www.minecraft.net/en-us/article/minecraft-26-1-snapshot-1",
-    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1-snapshot-1",
+    "wiki": "https://minecraft.wiki/w/Java_Edition_26.1_Snapshot_1",
     "source": "https://mcsrc.dev/1/26.1-snapshot-1/net/minecraft/client/main/Main"
   },
   "1.21.11": {
