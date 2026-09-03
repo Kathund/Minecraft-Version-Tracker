@@ -1,4 +1,4 @@
-node_modules
-build
-logs
-.env
+/node_modules/
+/build/
+/data/
+/config.json

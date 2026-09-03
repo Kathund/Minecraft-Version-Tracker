@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["better-sqlite3", "ms", "node"],
     "allowJs": false,
     "declaration": true,
     "esModuleInterop": true,

@@ -1,10 +1,27 @@
-import './src/Private/Logger.js';
+import ConfigManager from './src/ConfigManager.js';
+import { mkdir } from 'node:fs/promises';
+import './src/private/logger.js';
 
-import Application from './src/Application.js';
+await mkdir('./data/', { recursive: true });
 
-for (const key of ['DISCORD_TOKEN', 'DISCORD_LOGS_CHANNEL', 'MONGO_URL']) {
-  if (!process.env[key]) throw new Error(`Missing env option - ${key}`);
+const configManager = new ConfigManager();
+const config = await configManager.init();
+
+const { default: Application } = await import('./src/Application.js');
+const application = new Application(config);
+await application.database.checkForDatabase();
+await application.database.checkForMigrations();
+await application.scripts.init();
+
+const databaseVersions = application.database.getVersionIds();
+if (databaseVersions.length === 0) {
+  console.other('No versions inside of the database... Loading them all');
+  const script = application.scripts.getScript('loadAllVersions');
+  if (!script) {
+    console.error('Could not find the `loadAllVersions` script');
+    process.exit(1);
+  }
+  await script.execute();
 }
 
-const application = new Application();
-application.connect();
+await application.discord.connect();
