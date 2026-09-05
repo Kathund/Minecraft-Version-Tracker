@@ -14,28 +14,68 @@ Please check out the dedicated [Configuration](/docs/Configuration.md) docs page
 
 ## Running
 
-Once you have your repository setup run the following command to install the required packages
+1. Clone the repository:
 
 ```bash
-pnpm install --frozen-lockfile
+  git clone https://github.com/Kathund/Minecraft-Version-Tracker.git
+  cd Minecraft-Version-Tracker
 ```
 
-While the packages are installing please setup a configuration
+2. Install dependencies:
+
+```bash
+  pnpm install --frozen-lockfile
+```
+
+3. Create your configuration:
 
 - Copy `config.example.json` to `config.json`
 - Edit `config.json` with your settings (see [Configuration](/docs/Configuration.md) for help)
 
-Once the packages are installed you can run the following command to run the project
+4. Start the bot:
 
 ```bash
-pnpm start
+  pnpm start
 ```
 
-Once you have created something you can check and confirm that everything parses the formatting, linting and building
-checks with the following command
+## Docker
+
+### Prerequisites
+
+- [Docker](https://docs.docker.com/get-docker/) >= 20
+  - Older versions may also work, but have not been tested.
+
+1. Clone the repository:
 
 ```bash
-pnpm check
+  git clone https://github.com/Kathund/Minecraft-Version-Tracker.git
+  cd Minecraft-Version-Tracker
+```
+
+2. Create your configuration:
+
+- Copy `config.example.json` to `config.json`
+- Edit `config.json` with your settings (see [Configuration](/docs/Configuration.md) for help)
+
+3. Run the container:
+
+```bash
+docker container run --restart=unless-stopped -itd -v ./config.json:/app/config.json -v ./data/:/app/data/ --name Minecraft-Version-Tracker ghcr.io/kathund/minecraft-version-tracker:latest
+```
+
+Note that the path of the configuration source file must either be relative (with the `./`) or absolute.
+
+4. Stop and remove the container when needed:
+
+```bash
+  docker stop Minecraft-Version-Tracker
+  docker rm Minecraft-Version-Tracker
+```
+
+5. Start it again:
+
+```bash
+  docker start Minecraft-Version-Tracker
 ```
 
 ## Support
