@@ -132,6 +132,7 @@ class Application {
       }
     }
   }
+
   async logError(error: ValidErrors, extraData: EmbedHelperField[] = []) {
     console.error(error);
     if (!this.discord.isClientOnline()) return;
