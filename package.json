@@ -1,7 +1,7 @@
 {
   "name": "Minecraft-Version-Tracker",
   "description": "A simple discord bot for tracking when Mojang releases new Minecraft Versions",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "module": "index.ts",
   "type": "module",
   "engines": {
