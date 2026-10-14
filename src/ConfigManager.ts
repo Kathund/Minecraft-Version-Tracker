@@ -1,6 +1,6 @@
-import MinecraftVersionTrackerError from './private/error.js';
-import { Config, ConfigChangeType, type JsonObject, type JsonValue, type MigrationMap } from './types/config.js';
-import { displayBigMessage, getNestedValue } from './utils/miscUtils.js';
+import MinecraftVersionTrackerError from './private/error.ts';
+import { Config, ConfigChangeType, type JsonObject, type JsonValue, type MigrationMap } from './types/config.ts';
+import { displayBigMessage, getNestedValue } from './utils/miscUtils.ts';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 class ConfigManager {

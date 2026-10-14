@@ -1,17 +1,17 @@
-import BasicInteractionData from '../BasicInteractionData.js';
+import BasicInteractionData from '../BasicInteractionData.ts';
 import {
   type AutocompleteOption,
   BasicInteractionResponse,
   type DiscordManagerWithClient
-} from '../../../types/discord.js';
-import type DiscordCommandData from './DiscordCommandData.js';
-import type DiscordManager from '../../DiscordManager.js';
+} from '../../../types/discord.ts';
+import type DiscordCommandDataBuilder from './DiscordCommandDataBuilder.ts';
+import type DiscordManager from '../../DiscordManager.ts';
 import type { AutocompleteInteraction, ChatInputCommandInteraction } from 'discord.js';
 
 abstract class DiscordCommand<
   Manager extends DiscordManager = DiscordManagerWithClient
 > extends BasicInteractionData<Manager> {
-  abstract readonly data: DiscordCommandData;
+  abstract readonly data: DiscordCommandDataBuilder;
   readonly response: BasicInteractionResponse = BasicInteractionResponse.Public;
 
   // eslint-disable-next-line require-await

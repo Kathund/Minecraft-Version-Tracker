@@ -1,5 +1,5 @@
 import zod from 'zod';
-import { Config } from '../../src/types/config.js';
+import { Config } from '../../src/types/config.ts';
 import {
   addTable,
   getMetadataDescription,
@@ -7,7 +7,7 @@ import {
   initMarkdownFile,
   saveMarkdownFile,
   unwrapSchema
-} from '../utils.js';
+} from '../utils.ts';
 
 // TODO: One day I want to remove the use of `any` but i'm not smart enough to do this at the moment
 

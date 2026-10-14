@@ -1,23 +1,24 @@
-import DatabaseManager from './database/DatabaseManager.js';
-import DiscordManager from './discord/DiscordManager.js';
-import MinecraftVersionTrackerError from './private/error.js';
-import ScriptManager from './scripts/ScriptManager.js';
-import axios, { AxiosError, HttpStatusCode } from 'axios';
+import DatabaseManager from './database/DatabaseManager.ts';
+import DiscordManager from './discord/DiscordManager.ts';
+import MinecraftVersionTrackerError from './private/error.ts';
+import ScriptManager from './scripts/ScriptManager.ts';
+import axios, { AxiosError, AxiosHeaders, type AxiosRequestConfig, HttpStatusCode } from 'axios';
 import packageJson from '../package.json' with { type: 'json' };
 import {
   ConfirmedVersion,
   ConfirmedVersionsResponse,
   MojangPistonFullVersionResponse,
   type MojangPistonVersionResponseVersion
-} from './types/requests.js';
+} from './types/requests.ts';
 import { type ZodType } from 'zod';
-import { canSendMessages, getApplicationOwners } from './utils/discordUtils.js';
-import { getErrorEmbed, getErrorTypeName } from './utils/miscUtils.js';
-import type { Config } from './types/config.js';
-import type { EmbedHelperField } from './types/discord.js';
-import type { MinecraftArticleDataResponse } from './types/misc.js';
-import type { ValidErrors } from './types/application.js';
-import type { VersionsEntry } from './types/database.js';
+import { canSendMessages, getApplicationOwners } from './utils/discordUtils.ts';
+import { execSync } from 'node:child_process';
+import { getErrorEmbed, getErrorTypeName, toError } from './utils/miscUtils.ts';
+import type { Config } from './types/config.ts';
+import type { EmbedHelperField } from './types/discord.ts';
+import type { MinecraftArticleDataResponse } from './types/misc.ts';
+import type { RuntimeInformation, ValidErrors } from './types/application.ts';
+import type { VersionsEntry } from './types/database.ts';
 
 class Application {
   readonly package: typeof packageJson = packageJson;
@@ -30,9 +31,11 @@ class Application {
     this.scripts = new ScriptManager(this);
   }
 
-  async request<T>(url: string, schema: ZodType<T>): Promise<T | undefined> {
+  async request<T>(url: string, schema: ZodType<T>, config: AxiosRequestConfig = {}): Promise<T | undefined> {
     try {
-      const { data } = await axios.get(url);
+      const headers = new AxiosHeaders(config.headers as AxiosHeaders | undefined);
+      if (!headers.has('User-Agent')) headers.set('User-Agent', this.getUserAgent());
+      const { data } = await axios.get(url, { ...config, headers });
       const validated = await schema.safeParseAsync(data);
       if (!validated.success) throw validated.error;
       return validated.data;
@@ -153,6 +156,35 @@ class Application {
     } catch (error) {
       console.error(error);
     }
+  }
+
+  private getGitCommit(): RuntimeInformation['commit'] {
+    try {
+      return process.env.GIT_COMMIT ?? execSync('git rev-parse HEAD', { encoding: 'utf8' }).trim();
+    } catch (error) {
+      this.logError(toError(error));
+      return 'UNKNOWN';
+    }
+  }
+
+  private getGitDirty(): RuntimeInformation['dirty'] {
+    try {
+      return process.env.GIT_DIRTY !== undefined
+        ? process.env.GIT_DIRTY === 'true'
+        : execSync('git status --porcelain', { encoding: 'utf8' }).trim().length > 0;
+    } catch (error) {
+      this.logError(toError(error));
+      return false;
+    }
+  }
+
+  getRuntimeInformation(): RuntimeInformation {
+    return { commit: this.getGitCommit(), dirty: this.getGitDirty(), docker: process.env.RUNNING_IN_DOCKER === 'true' };
+  }
+
+  getUserAgent() {
+    const runtime = this.getRuntimeInformation();
+    return `${this.package.name}/v${this.package.version}/g${runtime.commit} (github:Kathund/Minecraft-Version-Tracker)`;
   }
 }
 

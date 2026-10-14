@@ -1,8 +1,8 @@
-import DiscordButton from '../private/buttons/DiscordButton.js';
-import DiscordButtonData from '../private/buttons/DiscordButtonData.js';
+import DiscordButton from '../private/buttons/DiscordButton.ts';
+import DiscordButtonData from '../private/buttons/DiscordButtonData.ts';
 import { type ButtonInteraction, MessageFlags } from 'discord.js';
-import { ButtonResponse } from '../../types/discord.js';
-import { InformationComponents } from '../private/ComponentHelper.js';
+import { ButtonResponse } from '../../types/discord.ts';
+import { InformationComponents } from '../private/ComponentHelper.ts';
 
 class ViewInformationButton extends DiscordButton {
   override readonly data = new DiscordButtonData('viewInformation');

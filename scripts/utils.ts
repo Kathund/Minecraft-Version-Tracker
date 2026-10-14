@@ -1,10 +1,10 @@
-import ConfigManager from '../src/ConfigManager.js';
+import ConfigManager from '../src/ConfigManager.ts';
 import zod from 'zod';
-import { CommonDevs } from '../src/private/constants.js';
-import { type TemplatePrimitive, replaceVariables } from '../src/utils/stringUtils.js';
+import { CommonDevs } from '../src/private/constants.ts';
+import { type TemplatePrimitive, replaceVariables } from '../src/utils/stringUtils.ts';
 import { access, readFile, writeFile } from 'node:fs/promises';
 import { format } from 'prettier';
-import { getNestedValue } from '../src/utils/miscUtils.js';
+import { getNestedValue } from '../src/utils/miscUtils.ts';
 import { markdownTable } from 'markdown-table';
 import type {
   ConfigMetadata,
@@ -12,9 +12,10 @@ import type {
   ConfigMetadataDotPathDescription,
   SchemaData,
   UnwrappedSchema
-} from './types.js';
+} from './types.ts';
+import type { MaintainerDevData } from '../src/types/application.ts';
 
-import '../src/private/logger.js';
+import '../src/private/logger.ts';
 
 export function addLines(
   content: string,
@@ -82,8 +83,8 @@ export async function saveMarkdownFile(
     timestamp: new Date(Number(process.env.UNIX_TIMESTAMP)).toUTCString(),
     unix: process.env.UNIX_TIMESTAMP,
     maintainers: Object.values(CommonDevs)
-      .filter(({ type }) => type === 'Maintainer')
-      .map(({ username, id }) => `[@${username}](https://discord.com/users/${id})`)
+      .filter((dev): dev is MaintainerDevData => dev.type === 'Maintainer')
+      .map(({ discord }) => `[@${discord.username}](https://discord.com/users/${discord.id})`)
       .join(', ')
   };
 

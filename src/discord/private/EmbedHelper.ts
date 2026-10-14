@@ -1,12 +1,12 @@
 import config from '../../../config.json' with { type: 'json' };
 import { type APIEmbed, type APIEmbedField, type ColorResolvable, EmbedBuilder, type EmbedData } from 'discord.js';
-import { CommonDevs, EmbedStyles } from '../../private/constants.js';
-import { ConfigDiscordEmbedsColors } from '../../types/config.js';
-import { type DevData, type DevName } from '../../types/application.js';
-import { VersionTypes } from '../../types/requests.js';
-import { titleCase } from '../../utils/stringUtils.js';
-import type { EmbedHelperField, EmbedStyleData, EmbedStyleName } from '../../types/discord.js';
-import type { ServerEntry } from '../../types/database.js';
+import { CommonDevs, EmbedStyles } from '../../private/constants.ts';
+import { ConfigDiscordEmbedsColors } from '../../types/config.ts';
+import { type DevData, type DevName } from '../../types/application.ts';
+import { VersionTypes } from '../../types/requests.ts';
+import { titleCase } from '../../utils/stringUtils.ts';
+import type { EmbedHelperField, EmbedStyleData, EmbedStyleName } from '../../types/discord.ts';
+import type { ServerEntry } from '../../types/database.ts';
 
 export default class EmbedHelper extends EmbedBuilder {
   constructor(data?: EmbedData | APIEmbed) {
@@ -26,20 +26,25 @@ export default class EmbedHelper extends EmbedBuilder {
 
   setDevFooter(data: DevName | DevData | null, message: string = 'Consider checking out /information'): this {
     if (data === null) return this.setFooter(null);
-    const { username, iconURL } = typeof data === 'string' ? CommonDevs[data] : data;
+    const dev = (typeof data === 'string' ? CommonDevs[data] : data) as DevData;
+    const { displayName, discord, avatarURL } = dev;
+    const username = discord ? `@${discord.username}` : displayName;
     return this.setFooter({
-      text: config.discord.embeds.showDevFooters ? `by @${username} | ${message}` : message,
-      iconURL: config.discord.embeds.showDevFooters ? iconURL : undefined
+      text: config.discord.embeds.showDevFooters ? `by ${username} | ${message}` : message,
+      iconURL: config.discord.embeds.showDevFooters ? avatarURL : undefined
     });
   }
 
   setStyle(data: EmbedStyleName | EmbedStyleData): this {
-    const { title, author, description, color, footer } = typeof data === 'string' ? EmbedStyles[data] : data;
+    const { title, author, description, color, footer, footerMessage, timestamp } = (
+      typeof data === 'string' ? EmbedStyles[data] : data
+    ) as EmbedStyleData;
     this.setTitle(title ?? null);
     this.setAuthor(author ?? null);
     this.setDescription(description ?? null);
     this.setColor(color ?? null);
-    this.setDevFooter(footer ?? null);
+    this.setDevFooter(footer ?? null, footerMessage);
+    this.setTimestamp(timestamp === 'Now' ? Date.now() : (timestamp ?? null));
     return this;
   }
 
@@ -51,8 +56,8 @@ export default class EmbedHelper extends EmbedBuilder {
     return super.addFields(fields.map((field) => this.formatField(field)));
   }
 
-  private formatField(data: EmbedHelperField): APIEmbedField {
-    return { name: data.name, value: this.formatFieldValue(data), inline: data.inline };
+  private formatField({ name, value, inline, blockValue, formatTimestamp }: EmbedHelperField): APIEmbedField {
+    return { name, value: this.formatFieldValue({ name, value, inline, blockValue, formatTimestamp }), inline };
   }
 
   private formatFieldValue({ value, smallBlockValue, blockValue, formatTimestamp }: EmbedHelperField): string {

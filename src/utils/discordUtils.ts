@@ -13,7 +13,7 @@ import type {
   ChatInputCommandInteractionWithGuild,
   Information,
   ModalSubmitInteractionWithGuild
-} from '../types/discord.js';
+} from '../types/discord.ts';
 
 export async function getApplicationOwners(client: Client<true>): Promise<string[]> {
   const app = await client.application.fetch();

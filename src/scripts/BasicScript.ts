@@ -1,9 +1,9 @@
 import ms, { type StringValue } from 'ms';
 import prettyMilliseconds from 'pretty-ms';
 import { schedule } from 'node-cron';
-import { toError } from '../utils/miscUtils.js';
-import type ScriptManager from './ScriptManager.js';
-import type { ScriptOptions } from '../types/scripts.js';
+import { toError } from '../utils/miscUtils.ts';
+import type ScriptManager from './ScriptManager.ts';
+import type { ScriptOptions } from '../types/scripts.ts';
 
 class BasicScript {
   id: string;

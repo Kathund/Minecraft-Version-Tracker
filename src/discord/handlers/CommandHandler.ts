@@ -9,12 +9,12 @@ import {
   REST,
   Routes
 } from 'discord.js';
-import { BasicInteractionResponse, InteractionFlags } from '../../types/discord.js';
+import { BasicInteractionResponse, InteractionFlags } from '../../types/discord.ts';
 import { readdir } from 'node:fs/promises';
-import { toCamelCase, upperFirst } from '../../utils/stringUtils.js';
-import { toError } from '../../utils/miscUtils.js';
-import type DiscordCommand from '../private/commands/DiscordCommand.js';
-import type DiscordManager from '../DiscordManager.js';
+import { toCamelCase, upperFirst } from '../../utils/stringUtils.ts';
+import { toError } from '../../utils/miscUtils.ts';
+import type DiscordCommand from '../private/commands/DiscordCommand.ts';
+import type DiscordManager from '../DiscordManager.ts';
 
 class CommandHandler {
   readonly commands: Collection<string, DiscordCommand> = new Collection<string, DiscordCommand>();

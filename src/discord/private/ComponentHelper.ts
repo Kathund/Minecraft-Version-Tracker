@@ -11,16 +11,16 @@ import {
   SectionBuilder,
   TextDisplayBuilder
 } from 'discord.js';
-import { CommonDevs, getParsedMiscCredits } from '../../private/constants.js';
-import { ConfigDiscordEmbedsColors } from '../../types/config.js';
-import { DevTypes } from '../../types/application.js';
-import { type MojangPistonArtifact, type VersionType, VersionTypes } from '../../types/requests.js';
-import { formatInformation } from '../../utils/discordUtils.js';
-import { formatSize, titleCase } from '../../utils/stringUtils.js';
-import { getGitInfo, hexToRgb } from '../../utils/miscUtils.js';
-import type { DiscordManagerWithClient } from '../../types/discord.js';
-import type { MinecraftArticleDataResponse } from '../../types/misc.js';
-import type { VersionsEntry } from '../../types/database.js';
+import { CommonDevs, getParsedMiscCredits } from '../../private/constants.ts';
+import { ConfigDiscordEmbedsColors } from '../../types/config.ts';
+import { DevTypes, type MaintainerDevData } from '../../types/application.ts';
+import { type MojangPistonArtifact, type VersionType, VersionTypes } from '../../types/requests.ts';
+import { convertDevDataToName, hexToRgb } from '../../utils/miscUtils.ts';
+import { formatInformation } from '../../utils/discordUtils.ts';
+import { formatSize, titleCase } from '../../utils/stringUtils.ts';
+import type { DiscordManagerWithClient } from '../../types/discord.ts';
+import type { MinecraftArticleDataResponse } from '../../types/misc.ts';
+import type { VersionsEntry } from '../../types/database.ts';
 
 export class PatchedContainerBuilder extends ContainerBuilder {
   constructor() {
@@ -152,7 +152,7 @@ export async function InformationComponents(
 ): Promise<NonNullable<BaseMessageOptions['components']>> {
   const app = await discord.client.application.fetch();
   const versions = discord.application.database.getVersionIds();
-  const { commit, dirty } = getGitInfo();
+  const { commit, dirty, docker } = discord.application.getRuntimeInformation();
   const timestamp = Math.floor((Date.now() - discord.client.uptime) / 1000);
   return [
     new PatchedContainerBuilder()
@@ -190,7 +190,7 @@ export async function InformationComponents(
               { name: 'Uptime', value: `Online since <t:${timestamp}:F> (<t:${timestamp}:R>)`, format: false },
               {
                 name: 'Is Inside of Docker Container',
-                value: process.env.RUNNING_IN_DOCKER === 'true' ? ':white_check_mark: Yes' : ':x: No',
+                value: docker ? ':white_check_mark: Yes' : ':x: No',
                 format: false
               },
               { name: 'Git Hash', value: commit ?? 'UNKNOWN' },
@@ -237,10 +237,9 @@ export function CreditsComponents(
                 `## ${type}`,
                 ...Object.values(CommonDevs)
                   .filter((data) => data.type === type)
-                  .sort((a, b) => a.username.localeCompare(b.username))
+                  .sort((a, b) => a.displayName.localeCompare(b.displayName))
                   .map(
-                    ({ username, github, id }) =>
-                      `@${username} (<@${id}>) - [Github](<https://github.com/${github ?? username}>)`
+                    (dev) => `${convertDevDataToName(dev, true)} - [Github](<https://github.com/${dev.githubUsername}>)`
                   )
               ].join('\n')
             )
@@ -258,8 +257,8 @@ export function CreditsComponents(
           [
             '## Support',
             `If you need any support please reach out to the maintainers: ${Object.values(CommonDevs)
-              .filter(({ type }) => type === 'Maintainer')
-              .map(({ username }) => `@${username}`)
+              .filter((dev): dev is MaintainerDevData => dev.type === 'Maintainer')
+              .map(({ discord: { username } }) => `@${username}`)
               .join(', ')}`
           ].join('\n')
         )

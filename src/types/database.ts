@@ -1,5 +1,5 @@
 import zod from 'zod';
-import { MojangPistonArtifact, type VersionType, VersionTypes } from './requests.js';
+import { MojangPistonArtifact, type VersionType, VersionTypes } from './requests.ts';
 
 export const VersionsEntry = zod.object({
   id: zod.string(),

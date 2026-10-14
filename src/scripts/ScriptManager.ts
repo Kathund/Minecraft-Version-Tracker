@@ -1,7 +1,7 @@
 import { Collection } from 'discord.js';
 import { readdir } from 'node:fs/promises';
-import type Application from '../Application.js';
-import type BasicScript from './BasicScript.js';
+import type Application from '../Application.ts';
+import type BasicScript from './BasicScript.ts';
 
 class ScriptManager {
   readonly scripts: Collection<string, BasicScript> = new Collection<string, BasicScript>();

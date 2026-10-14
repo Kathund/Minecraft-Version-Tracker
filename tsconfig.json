@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "types": ["better-sqlite3", "ms", "node"],
+    "types": ["better-sqlite3", "eslint", "ms", "node"],
     "allowJs": false,
     "declaration": true,
     "esModuleInterop": true,
@@ -19,6 +19,10 @@
     "sourceMap": true,
     "strict": true,
     "target": "ES2022",
-    "verbatimModuleSyntax": true
+    "verbatimModuleSyntax": true,
+    "declarationMap": true,
+    "allowArbitraryExtensions": false,
+    "rewriteRelativeImportExtensions": true,
+    "allowImportingTsExtensions": true
   }
 }

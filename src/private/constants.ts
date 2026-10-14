@@ -1,22 +1,23 @@
-import type { CreditData, DevData, DevName } from '../types/application.js';
-import type { EmbedStyleData, EmbedStyleName } from '../types/discord.js';
+import type { CreditData, DevData } from '../types/application.ts';
+import type { EmbedStyleData } from '../types/discord.ts';
 
-export const EmbedStyles: Record<EmbedStyleName, EmbedStyleData> = {
-  Generic: { color: 'Pink', footer: 'Kathund' },
-  Warning: { author: { name: 'An Warning has occurred' }, color: 'Yellow', footer: 'Kathund' },
-  Error: { author: { name: 'An Error has occurred' }, color: 'Red', footer: 'Kathund' },
-  Success: { author: { name: 'Success' }, color: 'Green', footer: 'Kathund' }
-};
+export const EmbedStyles = {
+  Generic: { color: 'Blue', footer: 'Amber' },
+  Warning: { author: { name: 'An Warning has occurred' }, color: 'Yellow', footer: 'Amber' },
+  Error: { author: { name: 'An Error has occurred' }, color: 'Red', footer: 'Amber' },
+  Success: { author: { name: 'Success' }, color: 'Green', footer: 'Amber' }
+} satisfies Record<string, EmbedStyleData>;
 
-export const CommonDevs: Record<DevName, DevData> = {
-  Kathund: {
-    username: '.kathund',
-    github: 'kathund',
-    id: '1276524855445164098',
-    iconURL: 'https://i.imgur.com/uUuZx2E.png',
-    type: 'Maintainer'
+export const CommonDevs = {
+  Amber: {
+    displayName: 'Amber',
+    githubUsername: 'kathund',
+    type: 'Maintainer',
+    avatarURL: 'https://kathund.dev/kathund.png',
+    discord: { username: 'amber.rip', id: '1276524855445164098' },
+    note: ':purple_heart:'
   }
-};
+} satisfies Record<string, DevData>;
 
 export const MiscCredits: CreditData[] = [
   {

@@ -1,5 +1,5 @@
 import type { ChalkInstance } from 'chalk';
-import type { ConfirmedVersion } from './requests.js';
+import type { ConfirmedVersion } from './requests.ts';
 
 declare global {
   export interface Console {

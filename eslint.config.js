@@ -1,12 +1,13 @@
-/* eslint-disable */
 import globals from 'globals';
 import importPlugin from 'eslint-plugin-import';
+import plugin from './scripts/eslint/plugin.js';
 import prettier from 'eslint-config-prettier';
 import sortImports from '@j4cobi/eslint-plugin-sort-imports';
-import ts from 'typescript-eslint';
 import stylistic from '@stylistic/eslint-plugin';
+import ts from 'typescript-eslint';
 import { globalIgnores } from 'eslint/config';
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default [
   ...ts.configs.recommended,
   importPlugin.flatConfigs.recommended,
@@ -17,7 +18,7 @@ export default [
     ignores: ['build/*'],
     files: ['**/*.ts', '**/*.js'],
     languageOptions: { ecmaVersion: 2022, sourceType: 'module', globals: { ...globals.es2022, ...globals.node } },
-    plugins: { '@stylistic': stylistic, 'sort-imports': sortImports },
+    plugins: { '@stylistic': stylistic, 'sort-imports': sortImports, 'Minecraft-Version-Tracker': plugin },
     settings: { 'import/resolver': { typescript: true, node: true } },
     rules: {
       'sort-imports/sort-imports': [
@@ -29,7 +30,10 @@ export default [
         { code: 120, tabWidth: 2, ignoreComments: true, ignoreUrls: true, ignoreRegExpLiterals: true }
       ],
       '@stylistic/space-before-function-paren': ['error', { anonymous: 'never', named: 'never', catch: 'always' }],
+      'Minecraft-Version-Tracker/enforce-discord-command-data-builder': 'error',
       '@stylistic/function-call-argument-newline': ['error', 'consistent'],
+      '@stylistic/line-comment-position': ['warn', { position: 'above' }],
+      'import/extensions': ['warn', 'always', { ignorePackages: true }],
       '@typescript-eslint/no-unused-vars': ['error', { args: 'none' }],
       '@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
       '@stylistic/array-bracket-newline': ['error', 'consistent'],
@@ -37,6 +41,7 @@ export default [
       'no-constant-condition': ['error', { checkLoops: false }],
       'import/enforce-node-protocol-usage': ['error', 'always'],
       'no-extend-native': ['warn', { exceptions: ['Object'] }],
+      'Minecraft-Version-Tracker/enforce-embed-helper': 'warn',
       '@stylistic/nonblock-statement-body-position': 'error',
       '@stylistic/object-curly-spacing': ['error', 'always'],
       '@stylistic/no-whitespace-before-property': 'error',
@@ -47,7 +52,7 @@ export default [
       '@stylistic/no-mixed-spaces-and-tabs': 'error',
       '@stylistic/type-named-tuple-spacing': 'error',
       'import/no-cycle': ['error', { maxDepth: 1 }],
-      curly: ['warn', 'multi-line', 'consistent'],
+      'curly': ['warn', 'multi-line', 'consistent'],
       '@stylistic/no-multiple-empty-lines': 'error',
       '@stylistic/max-statements-per-line': 'error',
       '@stylistic/type-annotation-spacing': 'error',
@@ -55,8 +60,8 @@ export default [
       '@stylistic/member-delimiter-style': 'error',
       '@stylistic/template-curly-spacing': 'error',
       'import/no-extraneous-dependencies': 'error',
+      '@stylistic/multiline-comment-style': 'warn',
       '@typescript-eslint/no-explicit-any': 'off',
-      '@stylistic/line-comment-position': 'warn',
       '@stylistic/object-curly-newline': 'error',
       '@stylistic/array-bracket-spacing': 'warn',
       'import/no-useless-path-segments': 'error',
@@ -84,6 +89,8 @@ export default [
       '@stylistic/comma-spacing': 'error',
       '@stylistic/curly-newline': 'error',
       'import/no-dynamic-require': 'warn',
+      '@stylistic/spaced-comment': 'warn',
+      '@stylistic/spaced-comment': 'warn',
       '@stylistic/semi-spacing': 'error',
       '@stylistic/arrow-parens': 'error',
       'import/no-absolute-path': 'error',
@@ -93,19 +100,21 @@ export default [
       '@stylistic/key-spacing': 'error',
       '@stylistic/comma-style': 'error',
       'no-useless-constructor': 'error',
+      'import/no-absolute-path': 'warn',
       '@stylistic/semi-style': 'error',
       '@stylistic/new-parens': 'error',
       'no-useless-assignment': 'error',
       'no-inner-declarations': 'error',
       'import/no-self-import': 'error',
+      'import/no-unresolved': 'error',
       'no-implicit-coercion': 'error',
       'import/no-deprecated': 'error',
       '@stylistic/eol-last': 'error',
-      'import/no-namespace': 'error',
       'no-use-before-define': 'warn',
       'no-underscore-dangle': 'warn',
       'no-unneeded-ternary': 'error',
       'import/exports-last': 'error',
+      'import/no-namespace': 'warn',
       '@stylistic/no-tabs': 'error',
       'default-param-last': 'error',
       'import/no-commonjs': 'error',
@@ -132,9 +141,9 @@ export default [
       'no-multi-str': 'warn',
       'no-lonely-if': 'warn',
       'no-new-func': 'error',
-      camelcase: 'warn',
+      'camelcase': 'warn',
       'no-var': 'warn',
-      eqeqeq: 'warn'
+      'eqeqeq': 'warn'
     }
   }
 ];

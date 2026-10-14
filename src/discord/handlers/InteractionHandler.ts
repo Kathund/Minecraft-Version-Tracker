@@ -1,14 +1,14 @@
-import MinecraftVersionTrackerError from '../../private/error.js';
+import MinecraftVersionTrackerError from '../../private/error.ts';
 import { type BaseInteraction } from 'discord.js';
-import { CommandPermission, InteractionFlags } from '../../types/discord.js';
+import { CommandPermission, InteractionFlags } from '../../types/discord.ts';
 import {
   isAdminMember,
   isButtonInteractionInsideOfGuild,
   isChatInputCommandInteractionInsideOfGuild,
   isModalSubmitInteractionInsideOfGuild
-} from '../../utils/discordUtils.js';
-import type BasicInteractionData from '../private/BasicInteractionData.js';
-import type DiscordManager from '../DiscordManager.js';
+} from '../../utils/discordUtils.ts';
+import type BasicInteractionData from '../private/BasicInteractionData.ts';
+import type DiscordManager from '../DiscordManager.ts';
 
 class InteractionHandler {
   constructor(private readonly discord: DiscordManager) {}

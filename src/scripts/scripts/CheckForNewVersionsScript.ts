@@ -1,11 +1,11 @@
-import BasicScript from '../BasicScript.js';
-import MinecraftVersionTrackerError from '../../private/error.js';
+import BasicScript from '../BasicScript.ts';
+import MinecraftVersionTrackerError from '../../private/error.ts';
 import assert from 'node:assert';
 import { MessageFlags } from 'discord.js';
-import { MinecraftVersion, NewMinecraftVersion } from '../../discord/private/ComponentHelper.js';
-import { MojangPistonVersionResponse, MojangPistonVersionResponseVersion } from '../../types/requests.js';
-import { canSendMessages } from '../../utils/discordUtils.js';
-import type ScriptManager from '../ScriptManager.js';
+import { MinecraftVersion, NewMinecraftVersion } from '../../discord/private/ComponentHelper.ts';
+import { MojangPistonVersionResponse, MojangPistonVersionResponseVersion } from '../../types/requests.ts';
+import { canSendMessages } from '../../utils/discordUtils.ts';
+import type ScriptManager from '../ScriptManager.ts';
 
 class CheckForNewVersions extends BasicScript {
   constructor(scripts: ScriptManager) {

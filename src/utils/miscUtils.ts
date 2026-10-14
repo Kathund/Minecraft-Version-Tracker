@@ -1,10 +1,9 @@
-import MinecraftVersionTrackerError from '../private/error.js';
+import MinecraftVersionTrackerError from '../private/error.ts';
 import chalk from 'chalk';
 import { DiscordjsError, type HexColorString, type RGBTuple } from 'discord.js';
-import { ErrorEmbed } from '../discord/private/EmbedHelper.js';
-import { execSync } from 'node:child_process';
-import type { EmbedHelperField } from '../types/discord.js';
-import type { ValidErrors } from '../types/application.js';
+import { ErrorEmbed } from '../discord/private/EmbedHelper.ts';
+import type { DevData, ValidErrors } from '../types/application.ts';
+import type { EmbedHelperField } from '../types/discord.ts';
 
 export function delay(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -62,12 +61,9 @@ export function hexToRgb(hex: HexColorString): RGBTuple {
   return [parseInt(value.slice(0, 2), 16), parseInt(value.slice(2, 4), 16), parseInt(value.slice(4, 6), 16)];
 }
 
-export function getGitInfo(): { commit: string | null; dirty: boolean | null } {
-  try {
-    const commit = execSync('git rev-parse HEAD', { encoding: 'utf8' }).trim();
-    const dirty = execSync('git status --porcelain', { encoding: 'utf8' }).trim().length > 0;
-    return { commit, dirty };
-  } catch {
-    return { commit: null, dirty: null };
+export function convertDevDataToName({ discord, displayName }: DevData, includeMention: boolean = false): string {
+  if (includeMention) {
+    return `${discord !== undefined ? `${displayName} (@${discord.username} | <@${discord.id}>)` : displayName}`;
   }
+  return `${discord !== undefined ? `${displayName} (@${discord.username})` : displayName}`;
 }

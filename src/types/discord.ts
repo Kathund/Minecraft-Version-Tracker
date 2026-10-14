@@ -1,4 +1,4 @@
-import type DiscordManager from '../discord/DiscordManager.js';
+import type DiscordManager from '../discord/DiscordManager.ts';
 import type {
   APIEmbedField,
   ButtonInteraction,
@@ -11,8 +11,9 @@ import type {
   ModalMessageModalSubmitInteraction,
   ModalSubmitInteraction
 } from 'discord.js';
-import type { ConfigDiscordEmbedsColors } from './config.js';
-import type { DevData, DevName } from './application.js';
+import type { ConfigDiscordEmbedsColors } from './config.ts';
+import type { DevData, DevName } from './application.ts';
+import type { EmbedStyles } from '../private/constants.ts';
 
 export enum InteractionFlags {
   GuildCommand,
@@ -56,15 +57,15 @@ export type ButtonInteractionWithGuild = ButtonInteraction & GuildInteractionDat
 export type ModalSubmitInteractionWithGuild = ModalSubmitInteraction & GuildInteractionData;
 export type ModalMessageModalSubmitInteractionWithGuild = ModalMessageModalSubmitInteraction & GuildInteractionData;
 
-export const EmbedStyleNames = ['Generic', 'Warning', 'Error', 'Success'] as const;
-export type EmbedStyleName = (typeof EmbedStyleNames)[number];
-
+export type EmbedStyleName = keyof typeof EmbedStyles;
 export interface EmbedStyleData {
   title?: string;
   author?: EmbedAuthorOptions;
   description?: string;
   color?: ConfigDiscordEmbedsColors | ColorResolvable;
   footer?: DevName | DevData;
+  footerMessage?: string;
+  timestamp?: Date | number | 'Now';
 }
 
 export interface EmbedHelperField extends APIEmbedField {

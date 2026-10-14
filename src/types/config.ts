@@ -39,9 +39,12 @@ export const ConfigDiscord = zod.object({
 export const ConfigLogger = zod.object({
   saveToFiles: zod.boolean().meta({ description: 'Whether log output should be written to files' }),
   location: zod.string().meta({ description: 'The location of where these files should be saved' }),
-  errorLogChannel: zod.string().nullable().meta({
-    description: 'A discord channel id where error logs will be sent. Not providing one disables logging to a channel'
-  })
+  errorLogChannel: zod
+    .string()
+    .nullable()
+    .meta({
+      description: 'A discord channel id where error logs will be sent. Not providing one disables logging to a channel'
+    })
 });
 
 export const ConfigOther = zod.object({
@@ -57,9 +60,7 @@ export const Config = zod.object({
     .positive()
     .meta({ description: '!IMPORTANT DO NOT TOUCH\nConfig format version number' }),
   discord: ConfigDiscord.meta({ description: 'Configuration options for discord related stuff' }),
-  logger: ConfigLogger.meta({
-    description: 'Configuration options for the logger'
-  }),
+  logger: ConfigLogger.meta({ description: 'Configuration options for the logger' }),
   other: ConfigOther.meta({
     description: "Configuration options for misc/other stuff or things that don't have a good location"
   })

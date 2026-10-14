@@ -1,10 +1,10 @@
-import DiscordCommand from '../private/commands/DiscordCommand.js';
-import DiscordCommandData from '../private/commands/DiscordCommandData.js';
+import DiscordCommand from '../private/commands/DiscordCommand.ts';
+import DiscordCommandDataBuilder from '../private/commands/DiscordCommandDataBuilder.ts';
 import { type ChatInputCommandInteraction, MessageFlags } from 'discord.js';
-import { CreditsComponents } from '../private/ComponentHelper.js';
+import { CreditsComponents } from '../private/ComponentHelper.ts';
 
 class CreditsCommand extends DiscordCommand {
-  override readonly data = new DiscordCommandData()
+  override readonly data = new DiscordCommandDataBuilder()
     .setName('credits')
     .setDescription('Shows the credits of the people who make this possible');
 

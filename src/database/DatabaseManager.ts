@@ -1,5 +1,5 @@
 import Database from 'better-sqlite3';
-import MinecraftVersionTrackerError from '../private/error.js';
+import MinecraftVersionTrackerError from '../private/error.ts';
 import {
   type MetadataEntry,
   type SQLiteServerEntryResponse,
@@ -7,11 +7,11 @@ import {
   ServerEntry,
   type SmallVersionsEntry,
   VersionsEntry
-} from '../types/database.js';
+} from '../types/database.ts';
 import { access, readFile } from 'node:fs/promises';
 import { range } from 'discord.js';
-import type Application from '../Application.js';
-import type { VersionType } from '../types/requests.js';
+import type Application from '../Application.ts';
+import type { VersionType } from '../types/requests.ts';
 
 class DatabaseManager {
   static readonly CURRENT_DB_SCHEMA_VERSION: number = 2;

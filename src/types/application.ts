@@ -1,17 +1,36 @@
-import type MinecraftVersionTrackerError from '../private/error.js';
+import type MinecraftVersionTrackerError from '../private/error.ts';
+import type { CommonDevs } from '../private/constants.ts';
 import type { DiscordjsError } from 'discord.js';
 
-export const DevNames = ['Kathund'] as const;
-export type DevName = (typeof DevNames)[number];
+export type DevName = keyof typeof CommonDevs;
 export const DevTypes = ['Maintainer', 'Contributor'] as const;
 export type DevType = (typeof DevTypes)[number];
-export interface DevData {
+
+export interface DevDiscordData {
   username: string;
-  github?: string;
   id: string;
-  iconURL: string;
-  type: DevType;
 }
+
+export interface BasicDevData {
+  displayName: string;
+  githubUsername: string;
+  avatarURL?: string;
+  discord?: DevDiscordData;
+  note?: string;
+}
+
+export interface MaintainerDevData extends BasicDevData {
+  type: 'Maintainer';
+  avatarURL: string;
+  discord: DevDiscordData;
+  note: string;
+}
+
+export interface ContributorDevData extends BasicDevData {
+  type: 'Contributor';
+}
+
+export type DevData = MaintainerDevData | ContributorDevData;
 
 export interface CreditData {
   name: string;
@@ -20,3 +39,9 @@ export interface CreditData {
 }
 
 export type ValidErrors = Error | DiscordjsError | MinecraftVersionTrackerError;
+
+export interface RuntimeInformation {
+  commit: string;
+  dirty: boolean;
+  docker: boolean;
+}

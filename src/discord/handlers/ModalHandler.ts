@@ -1,10 +1,10 @@
 import assert from 'node:assert';
-import { BasicInteractionResponse, InteractionFlags } from '../../types/discord.js';
+import { BasicInteractionResponse, InteractionFlags } from '../../types/discord.ts';
 import { Collection, MessageFlags, type ModalSubmitInteraction } from 'discord.js';
 import { readdir } from 'node:fs/promises';
-import { toError } from '../../utils/miscUtils.js';
-import type DiscordManager from '../DiscordManager.js';
-import type DiscordModal from '../private/modals/DiscordModal.js';
+import { toError } from '../../utils/miscUtils.ts';
+import type DiscordManager from '../DiscordManager.ts';
+import type DiscordModal from '../private/modals/DiscordModal.ts';
 
 class ModalHandler {
   readonly modals: Collection<string, DiscordModal> = new Collection<string, DiscordModal>();

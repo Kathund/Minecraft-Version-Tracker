@@ -1,10 +1,10 @@
 import assert from 'node:assert';
 import { type ButtonInteraction, Collection, MessageFlags } from 'discord.js';
-import { ButtonResponse, InteractionFlags } from '../../types/discord.js';
+import { ButtonResponse, InteractionFlags } from '../../types/discord.ts';
 import { readdir } from 'node:fs/promises';
-import { toError } from '../../utils/miscUtils.js';
-import type DiscordButton from '../private/buttons/DiscordButton.js';
-import type DiscordManager from '../DiscordManager.js';
+import { toError } from '../../utils/miscUtils.ts';
+import type DiscordButton from '../private/buttons/DiscordButton.ts';
+import type DiscordManager from '../DiscordManager.ts';
 
 class ButtonHandler {
   readonly buttons: Collection<string, DiscordButton> = new Collection<string, DiscordButton>();

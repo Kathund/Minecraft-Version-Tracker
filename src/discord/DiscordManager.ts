@@ -1,8 +1,8 @@
-import ButtonHandler from './handlers/ButtonHandler.js';
-import CommandHandler from './handlers/CommandHandler.js';
-import InteractionHandler from './handlers/InteractionHandler.js';
-import MinecraftVersionTrackerError from '../private/error.js';
-import ModalHandler from './handlers/ModalHandler.js';
+import ButtonHandler from './handlers/ButtonHandler.ts';
+import CommandHandler from './handlers/CommandHandler.ts';
+import InteractionHandler from './handlers/InteractionHandler.ts';
+import MinecraftVersionTrackerError from '../private/error.ts';
+import ModalHandler from './handlers/ModalHandler.ts';
 import {
   AutocompleteInteraction,
   ButtonInteraction,
@@ -13,12 +13,12 @@ import {
   MessageFlags,
   ModalSubmitInteraction
 } from 'discord.js';
-import { ErrorEmbed } from './private/EmbedHelper.js';
-import { getErrorEmbed, toError } from '../utils/miscUtils.js';
-import { parseInteractionType } from '../utils/discordUtils.js';
-import type Application from '../Application.js';
-import type { DiscordManagerWithClient, EmbedHelperField } from '../types/discord.js';
-import type { ValidErrors } from '../types/application.js';
+import { ErrorEmbed } from './private/EmbedHelper.ts';
+import { getErrorEmbed, toError } from '../utils/miscUtils.ts';
+import { parseInteractionType } from '../utils/discordUtils.ts';
+import type Application from '../Application.ts';
+import type { DiscordManagerWithClient, EmbedHelperField } from '../types/discord.ts';
+import type { ValidErrors } from '../types/application.ts';
 
 class DiscordManager {
   readonly buttonHandler: ButtonHandler;

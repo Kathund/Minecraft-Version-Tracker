@@ -1,15 +1,15 @@
-import DiscordModal from '../../private/modals/DiscordModal.js';
-import DiscordModalData from '../../private/modals/DiscordModalData.js';
-import MinecraftVersionTrackerError from '../../../private/error.js';
+import DiscordModal from '../../private/modals/DiscordModal.ts';
+import DiscordModalData from '../../private/modals/DiscordModalData.ts';
+import MinecraftVersionTrackerError from '../../../private/error.ts';
 import {
   BasicInteractionResponse,
   InteractionFlags,
   type ModalMessageModalSubmitInteractionWithGuild
-} from '../../../types/discord.js';
+} from '../../../types/discord.ts';
 import { ChannelType } from 'discord.js';
-import { ManageAlertsEmbed } from '../../private/EmbedHelper.js';
-import { ManageReleaseTypeButtonRow } from '../../private/ComponentHelper.js';
-import { VersionTypes, isVersionType } from '../../../types/requests.js';
+import { ManageAlertsEmbed } from '../../private/EmbedHelper.ts';
+import { ManageReleaseTypeButtonRow } from '../../private/ComponentHelper.ts';
+import { VersionTypes, isVersionType } from '../../../types/requests.ts';
 
 class ManageAlertTypeModals extends DiscordModal {
   override readonly data = new DiscordModalData(VersionTypes.map((type) => `manage_${type}`));

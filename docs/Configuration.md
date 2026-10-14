@@ -44,11 +44,11 @@ This document is generated from the Zod config schema in [`src/types/config.ts`]
 ---
 
 This document is [auto generated](/scripts/docs/Configuration.ts) and was last updated on
-`Sat, 05 Sep 2026 05:22:24 GMT` (`1788585744964`)
+`Wed, 14 Oct 2026 04:22:17 GMT` (`1791951737877`)
 
 To update this document please run `pnpm docgen` or contact a maintainer and ask them to update it.
 
 ---
 
 Feel free to reach out to the maintainers directly on Discord.
-[@.kathund](https://discord.com/users/1276524855445164098)
+[@amber.rip](https://discord.com/users/1276524855445164098)

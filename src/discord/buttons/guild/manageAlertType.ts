@@ -1,10 +1,10 @@
-import DiscordButton from '../../private/buttons/DiscordButton.js';
-import DiscordButtonData from '../../private/buttons/DiscordButtonData.js';
-import MinecraftVersionTrackerError from '../../../private/error.js';
-import { type ButtonInteractionWithGuild, ButtonResponse, InteractionFlags } from '../../../types/discord.js';
+import DiscordButton from '../../private/buttons/DiscordButton.ts';
+import DiscordButtonData from '../../private/buttons/DiscordButtonData.ts';
+import MinecraftVersionTrackerError from '../../../private/error.ts';
+import { type ButtonInteractionWithGuild, ButtonResponse, InteractionFlags } from '../../../types/discord.ts';
 import { ChannelSelectMenuBuilder, ChannelType, LabelBuilder, ModalBuilder, RoleSelectMenuBuilder } from 'discord.js';
-import { VersionTypes, isVersionType } from '../../../types/requests.js';
-import { titleCase } from '../../../utils/stringUtils.js';
+import { VersionTypes, isVersionType } from '../../../types/requests.ts';
+import { titleCase } from '../../../utils/stringUtils.ts';
 
 class ManageAlertTypeButtons extends DiscordButton {
   override readonly data = new DiscordButtonData(VersionTypes.map((type) => `manage_${type}`));

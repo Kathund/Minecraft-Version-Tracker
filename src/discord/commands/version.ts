@@ -1,15 +1,15 @@
-import DiscordCommand from '../private/commands/DiscordCommand.js';
-import DiscordCommandData from '../private/commands/DiscordCommandData.js';
-import MinecraftVersionTrackerError from '../../private/error.js';
+import DiscordCommand from '../private/commands/DiscordCommand.ts';
+import DiscordCommandDataBuilder from '../private/commands/DiscordCommandDataBuilder.ts';
+import MinecraftVersionTrackerError from '../../private/error.ts';
 import { type AutocompleteInteraction, type ChatInputCommandInteraction, MessageFlags } from 'discord.js';
-import { MinecraftVersion } from '../private/ComponentHelper.js';
-import { titleCase } from '../../utils/stringUtils.js';
-import type { AutocompleteOption } from '../../types/discord.js';
-import type { VersionType } from '../../types/requests.js';
-import type { VersionsEntry } from '../../types/database.js';
+import { MinecraftVersion } from '../private/ComponentHelper.ts';
+import { titleCase } from '../../utils/stringUtils.ts';
+import type { AutocompleteOption } from '../../types/discord.ts';
+import type { VersionType } from '../../types/requests.ts';
+import type { VersionsEntry } from '../../types/database.ts';
 
 class VersionCommand extends DiscordCommand {
-  override readonly data = new DiscordCommandData()
+  override readonly data = new DiscordCommandDataBuilder()
     .setName('version')
     .setDescription('Look up a version and find info on it')
     .addStringOption((option) =>

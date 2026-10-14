@@ -1,16 +1,16 @@
-import DiscordCommand from '../../private/commands/DiscordCommand.js';
-import DiscordCommandData from '../../private/commands/DiscordCommandData.js';
+import DiscordCommand from '../../private/commands/DiscordCommand.ts';
+import DiscordCommandDataBuilder from '../../private/commands/DiscordCommandDataBuilder.ts';
 import {
   BasicInteractionResponse,
   type ChatInputCommandInteractionWithGuild,
   InteractionFlags
-} from '../../../types/discord.js';
-import { ManageAlertsEmbed } from '../../private/EmbedHelper.js';
-import { ManageReleaseTypeButtonRow } from '../../private/ComponentHelper.js';
+} from '../../../types/discord.ts';
+import { ManageAlertsEmbed } from '../../private/EmbedHelper.ts';
+import { ManageReleaseTypeButtonRow } from '../../private/ComponentHelper.ts';
 import { PermissionFlagsBits } from 'discord.js';
 
 class ManageAlertsCommand extends DiscordCommand {
-  override readonly data = new DiscordCommandData()
+  override readonly data = new DiscordCommandDataBuilder()
     .setName('manage-alerts')
     .setDescription('Manage new version alerts')
     .setDefaultMemberPermissions(PermissionFlagsBits.ManageGuild);

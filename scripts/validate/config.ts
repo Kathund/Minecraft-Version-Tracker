@@ -1,5 +1,5 @@
-import ConfigManager from '../../src/ConfigManager.js';
-import '../../src/private/logger.js';
+import ConfigManager from '../../src/ConfigManager.ts';
+import '../../src/private/logger.ts';
 
 await ConfigManager.validate();
 process.exit(0);

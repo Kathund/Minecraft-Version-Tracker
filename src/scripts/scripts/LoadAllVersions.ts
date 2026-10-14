@@ -1,8 +1,8 @@
-import BasicScript from '../BasicScript.js';
-import MinecraftVersionTrackerError from '../../private/error.js';
-import { MojangPistonVersionResponse } from '../../types/requests.js';
-import type CheckForNewVersions from './CheckForNewVersionsScript.js';
-import type ScriptManager from '../ScriptManager.js';
+import BasicScript from '../BasicScript.ts';
+import MinecraftVersionTrackerError from '../../private/error.ts';
+import { MojangPistonVersionResponse } from '../../types/requests.ts';
+import type CheckForNewVersions from './CheckForNewVersionsScript.ts';
+import type ScriptManager from '../ScriptManager.ts';
 
 class LoadAllVersions extends BasicScript {
   constructor(scripts: ScriptManager) {
