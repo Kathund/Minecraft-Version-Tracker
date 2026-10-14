@@ -187,7 +187,7 @@ export async function InformationComponents(
             '## Runtime Info',
             ...[
               { name: 'Version', value: discord.application.package.version },
-              { name: 'Uptime', value: `Online since <t:${timestamp}:F> (<t:${timestamp}:R>)`, format: false },
+              { name: 'Online since', value: `<t:${timestamp}:F> (<t:${timestamp}:R>)`, format: false },
               {
                 name: 'Is Inside of Docker Container',
                 value: docker ? ':white_check_mark: Yes' : ':x: No',
